@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: "YekanBakh";
+    src: url("../../assets/fonts/YekanBakh-ExtraBold.ttf");
+}
+
+#boxHeader{
+    border-radius: 10px;
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.box-header-item{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-family: "YekanBakh";
+}
+
+.landing-status__text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #898989;
+}

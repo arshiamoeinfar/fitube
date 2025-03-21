@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "YakanBakh";
+    src: url("../../assets/fonts/YekanBakh-Black.ttf");
+  }
+  @font-face {
+    font-family: "YakanBakhMedium";
+    src: url("../../assets/fonts/YekanBakh-Regular.ttf");
+  }
+
+#footer{
+    padding-top: 10rem;
+}
+
+.footer-title{
+    font-family: "YakanBakh";
+    font-size: 1.5rem;
+}
+.footer-title p{
+    font-family: "YakanBakh";
+    font-size: 1.5rem;
+}
+
+.footer-text{
+    font-family: "YakanBakhMedium";
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(196, 196, 196);
+}
+
+.footer-text:hover{
+    color: #a9a9a9;
+}
+
+#footer-about-us{
+    font-family: "YakanBakhMedium";
+    font-size: 1rem;
+    color: rgb(196, 196, 196);
+}
+
+#footer-copy-right{
+    font-family: "YakanBakhMedium";
+    font-size: 1rem;
+    color: rgb(199, 199, 199);
+}

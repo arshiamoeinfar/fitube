@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "YekanBakh";
+  src: url("./../../assets/fonts/YekanBakh-ExtraBlack.ttf");
+}
+@font-face {
+  font-family: "YekanBakhRegular";
+  src: url("./../../assets/fonts/YekanBakh-Bold.ttf");
+}
+@font-face {
+  font-family: "YekanBakhMedium";
+  src: url("./../../assets/fonts/YekanBakh-SemiBold.ttf");
+}
+
+
+/*  */
+
+#text-category {
+  font-family: "YekanBakhRegular";
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+#card img{
+    border-radius: 1rem;
+}
+#card h5{
+    font-family: "YekanBakhMedium";
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.card-text{
+    font-family: "YekanBakhMedium";
+    font-size: 1rem;
+    color: rgb(189, 189, 189);
+}
+#container-mostpopular{
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+}
