@@ -14,7 +14,8 @@
     --bs-btn-border-color: #444;
     --bs-btn-hover-bg: #333;
     --bs-link-color: #9acd32; /* رنگ لینک‌ها */
-    
+    --bs-submenu-bg: #9f0e0e;
+    --bs-menu-bg:#fff;
 }
 :root[data-bs-theme="light"] {
     --bs-body-bg: #ffffff; /* پس‌زمینه کاملاً تاریک */
@@ -26,5 +27,6 @@
     --bs-btn-hover-bg: #333;
     --bs-link-color: #9acd32; /* رنگ لینک‌ها */
     --bg-utility-navbar: #f4f4f5;
-
+    --bs-submenu-bg: #9f0e0e;
+    --bs-menu-bg:#9f0e0e;
 }

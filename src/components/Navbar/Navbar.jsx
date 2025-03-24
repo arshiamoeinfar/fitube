@@ -133,7 +133,11 @@ const Header = () => {
               </div>
               <div className="_icon_Navbar">
                 <ShoppingCartOutlinedIcon className=" "/>
-                <span className="number_product">2</span>
+                <span className="number_product reletive">
+
+                <span class="ping-effect"></span>
+                <span class="relative inline-flex h-5 w-5 bg-blue-500 rounded-full">2</span>
+                </span>
               </div>
               <div className="_icon_Navbar">
                 <PersonOutlineOutlinedIcon className=" "/>
