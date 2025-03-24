@@ -10,12 +10,12 @@ export default function Index() {
   return (
     <>
         <Navbar />
-        <Header />
+        {/* <Header />
         <Category />
         <MostPopular />
         <BuyPremium />
         <CartPremium />
-        <Footer />
+        <Footer /> */}
     </>
   )
 }

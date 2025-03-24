@@ -1,0 +1,30 @@
+
+#btn-DarkMode {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-color);
+  border-color: var(--btn-border-color);
+}
+
+:root[data-bs-theme="dark"] {
+    --bs-body-bg: #0d0d0d; /* پس‌زمینه کاملاً تاریک */
+    --bs-body-color: #e0e0e0; /* متن خاکستری روشن برای خوانایی */
+    --bs-card-bg: #1a1a1a; /* رنگ کارت‌ها */
+    --bs-card-border-color: #333; /* رنگ بردر کارت */
+    --bs-btn-bg: #ffffff; /* رنگ دکمه‌ها */
+    --bs-btn-border-color: #444;
+    --bs-btn-hover-bg: #333;
+    --bs-link-color: #9acd32; /* رنگ لینک‌ها */
+    
+}
+:root[data-bs-theme="light"] {
+    --bs-body-bg: #ffffff; /* پس‌زمینه کاملاً تاریک */
+    --bs-body-color: #1a1a1a; /* متن خاکستری روشن برای خوانایی */
+    --bs-card-bg: #1a1a1a; /* رنگ کارت‌ها */
+    --bs-card-border-color: #333; /* رنگ بردر کارت */
+    --bs-btn-bg: #222; /* رنگ دکمه‌ها */
+    --bs-btn-border-color: #444;
+    --bs-btn-hover-bg: #333;
+    --bs-link-color: #9acd32; /* رنگ لینک‌ها */
+    --bg-utility-navbar: #f4f4f5;
+
+}

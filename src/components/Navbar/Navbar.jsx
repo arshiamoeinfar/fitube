@@ -1,56 +1,155 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import PersonIcon from '@mui/icons-material/Person';
-import SearchIcon from '@mui/icons-material/Search';
-import logo from "./../../assets/icons/Logo.png"
+import logo from "./../../assets/icons/Logo.png";
 import "./Navbar.css";
+import SearchIcon from "@mui/icons-material/Search";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import DarkMode from "../DarkMode/DarkMode";
 const Header = () => {
   return (
-    <Navbar id="navbar" className="container-fluid">
-      <Container>
-        <Row>
-        <Col>
-            <div className="text-align-center">
-              <img id="logo" src={logo} alt="" />
+    <Navbar id="navbar" className="container-fluid px-3 mx-auto ">
+      <div id="navbar-container" className=" d-flex justify-content-between align-items-center mx-auto">
+        <div className="row d-flex justify-content-between align-items-center w-100">
+          <div className="col-8 d-flex align-items-center justify-content-start">
+            <div className="logo">
+              <Link to="/">
+                <img className="logo-navbar" src={logo} alt="logo" />
+              </Link>
             </div>
-          </Col>
+            <div className="menus-navbar">
+              <Nav id="navbar-menus" className=" d-flex align-items-center justify-content-start mx-3">
+                <div className="menu  d-flex justify-contant-end align-items-end ">
+                <li
+                  className=" mx-3 text-decoration-none nav_link"
+                  to="#home"
+                >
+                دسته بندی آموزشها
+                <KeyboardArrowDownIcon  />
+                    <div className="subMenu">
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                    </div>
 
-        </Row>
-        <Row className="w-50">
-          <Col>
-          <div className=" d-flex justify-content-center">
-              <Link to="/" className="text-white menus">برنامه نویسی</Link>
+                </li>
+                </div>
+                <div className="menu  d-flex justify-contant-end align-items-end ">
+                <li
+                  className=" mx-3 text-decoration-none nav_link"
+                  to="#home"
+                >
+                مقالات آموزشی
+                <KeyboardArrowDownIcon  />
+                <div className="subMenu">
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                      <li>
+                        برنامه نویسی
+                        <KeyboardArrowLeftIcon/>
+                      </li>
+                    </div>
+
+                </li>
+                </div>
+                 <li >
+                    <Link className="nav_link text-decoration-none" to="/about">درباره ما</Link>
+                 </li>
+
+  
+              </Nav>
             </div>
-          </Col>
-          <Col>
-          <div className=" d-flex justify-content-center">
-              <Link to="/" className="text-white menus">ترید</Link>
-            </div>
-          </Col>
-          <Col>
-          <div className=" d-flex justify-content-center">
-              <Link to="/" className="text-white menus">تماس با ما</Link>
-            </div>
-          </Col>
-          <Col>
-          <div className=" d-flex justify-content-center">
-              <Link to="/" className="text-white menus">مقالات</Link>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-        <Col>
-          <div className=" d-flex justify-content-center">
+          </div>
+          <div className="col-4">
+            <div className="utility-bar d-flex justify-content-between align-items-center">
 
 
-              <Link to="/" className="text-white menu"><button className="btn  text-white btn-danger "><ShoppingCartIcon/></button></Link>
-              <Link to="/" className="text-white menu"><button className="btn  text-white btn-primary "><PersonIcon/></button></Link>
+              {/* <img src={moon} alt="" /> */}
+
+              <div className="_icon_Navbar">
+              <DarkMode/>
+              {/* <WbSunnyIcon className="" /> */}
+              </div>
+              <div className="_icon_Navbar">
+                <SearchIcon className=" "  />
+              </div>
+              <div className="_icon_Navbar">
+                <ShoppingCartOutlinedIcon className=" "/>
+                <span className="number_product">2</span>
+              </div>
+              <div className="_icon_Navbar">
+                <PersonOutlineOutlinedIcon className=" "/>
+              </div>
+              <div className="userLoginInfo">
+                <h3>ارشیا معین فر</h3>
+                <p>خوش آمدید</p>
+              </div>
+              <div className="userLoginArrow">
+                <KeyboardArrowDownIcon className="" />
+
+              </div>
             </div>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </Navbar>
   );
 };

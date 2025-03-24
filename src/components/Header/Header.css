@@ -4,6 +4,8 @@
   height: 100vh; /* ارتفاع هدر را می‌توانید تغییر دهید */
   overflow: hidden;
   font-family: "YakanBakh";
+  background-color: #000000;
+  z-index: 1;
 
 }
 @font-face {

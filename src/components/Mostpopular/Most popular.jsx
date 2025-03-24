@@ -1,5 +1,4 @@
   import React from "react";
-  import Background from "./../Bacground/Backround";
   import "./Mostpopular.css";
   import header from "./../../assets/images/wp2_1-1-768x432.webp";
   import { Rating } from "@mui/material";

@@ -1,7 +1,7 @@
 
 import { useRoutes } from "react-router-dom";
 import routes from "./routes";
-import Background from "./components/Bacground/Backround";
+import DarkMode from "./components/DarkMode/DarkMode";
 
 function App() {
   const router = useRoutes(routes);
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="">
-      <Background />
+
       {router}
     </div>
   );
