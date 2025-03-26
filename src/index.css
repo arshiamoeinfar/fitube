@@ -1,15 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    direction: rtl;
+@font-face {
+    font-family: 'YakanBakh';
+    src: url("./assets/fonts/YekanBakh-Black.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'YakanBakhMedium';
+    src: url("./assets/fonts/YekanBakh-Regular.ttf") format('truetype');
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #00000000;
-  }
-  
+
+:root{
+    --bs-font-bold: 'YakanBakh';
+    --bs-font-md: 'YakanBakhMedium';
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #00000000;
+}

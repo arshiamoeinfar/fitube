@@ -6,13 +6,15 @@ import MostPopular from "./../../components/Mostpopular/Most popular"
 import CartPremium from "./../../components/CartPermium/CartPremium"
 import BuyPremium from "./../../components/BuyPremium/BuyPremium"
 import Footer from "./../../components/Footer/Footer"
+import Wayus from '../../components/WayUs/Wayus'
 export default function Index() {
   return (
     <>
         <Navbar />
-        {/* <Header />
-        <Category />
-        <MostPopular />
+         <Header />
+         <Wayus/>
+         <MostPopular />
+        {/* <Category />
         <BuyPremium />
         <CartPremium />
         <Footer /> */}

@@ -14,19 +14,26 @@
     --bs-btn-border-color: #444;
     --bs-btn-hover-bg: #333;
     --bs-link-color: #9acd32; /* رنگ لینک‌ها */
+    --bg-utility-navbar: #1b1b21;
     --bs-submenu-bg: #9f0e0e;
     --bs-menu-bg:#fff;
+    --bs-main-color: #15151A;
+    --bs-main-color2: #111115;
+    --bs-back-main-2:#121218;
 }
 :root[data-bs-theme="light"] {
     --bs-body-bg: #ffffff; /* پس‌زمینه کاملاً تاریک */
     --bs-body-color: #1a1a1a; /* متن خاکستری روشن برای خوانایی */
     --bs-card-bg: #1a1a1a; /* رنگ کارت‌ها */
     --bs-card-border-color: #333; /* رنگ بردر کارت */
-    --bs-btn-bg: #222; /* رنگ دکمه‌ها */
+    --bs-btn-bg: #050404; /* رنگ دکمه‌ها */
     --bs-btn-border-color: #444;
     --bs-btn-hover-bg: #333;
     --bs-link-color: #9acd32; /* رنگ لینک‌ها */
     --bg-utility-navbar: #f4f4f5;
     --bs-submenu-bg: #9f0e0e;
     --bs-menu-bg:#9f0e0e;
+    --bs-main-color: #efefef;
+    --bs-main-color2: #f4f4f4;
+    --bs-back-main-2:#f1f1f1;
 }

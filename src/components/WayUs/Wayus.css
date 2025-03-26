@@ -1,0 +1,51 @@
+.title {
+  font-family: var(--bs-font-bold);
+  background-color: var(--bs-body-bg);
+  font-size: 1.5rem;
+  border: 1px dashed #e3e3e3;
+  width: fit-content;
+  margin: auto;
+  padding: 8px 15px;
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-180%, -135%);
+}
+.features {
+  animation: breathEffect 3s infinite ease-in-out;
+}
+#container-way-us {
+  background-color: var(--bs-back-main-2);
+}
+@keyframes breathEffect {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+.circle {
+  background-color: var(--bs-body-bg);
+}
+.circle-1 {
+  color: #0b999e;
+}
+.circle-3 {
+  color: #0184ef;
+}
+.circle-2 {
+  color: #158e00;
+}
+.circle-4 {
+  color: #ef940a;
+}
+.circle-5 {
+  color: #9c8f00;
+}
+.text-WayUs {
+  font-family: var(--bs-font-md);
+  margin-top: 1rem;
+}

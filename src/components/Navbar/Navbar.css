@@ -14,14 +14,14 @@
 width: 80%;
 }
 .logo-navbar {
-  width: 100px;
+  width: 90px;
 }
 #navbar-menus {
   width: 550px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "YakanBakhMedium";
+  font-family: var(--bs-font-md);
 }
 .nav_link {
   width: 100%;
@@ -63,7 +63,7 @@ width: 80%;
     width: 100%;
     margin-bottom: 15px;
   cursor: pointer;
-  font-family: "YakanBakhMedium";
+  font-family: var(--bs-font-md);
   color: #6b7280;
 }
 .subMenu li:hover {
@@ -89,13 +89,13 @@ width: 80%;
 
 .userLoginInfo h3 {
   font-size: 15px;
-  font-family: "YakanBakh";
+  font-family: var(--bs-font-bold);
   color: var( --bs-body-color);
 }
 .userLoginInfo p {
   font-size: 12px;
   font-weight:bold;
-  font-family: "YakanBakhMedium";
+  font-family: var(--bs-font-md);
   color: #6b7280;
 }
 .userLoginArrow{
@@ -111,10 +111,10 @@ width: 80%;
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgb(255, 8, 0);
+    background-color: var(--bs-submenu-bg);
     top: -6px;
     left: -6px;
-    font-family: "YakanBakhMedium";
+    font-family: var(--bs-font-md);
 }
 
 @keyframes ping {

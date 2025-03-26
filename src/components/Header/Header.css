@@ -1,79 +1,80 @@
-.header {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* ارتفاع هدر را می‌توانید تغییر دهید */
-  overflow: hidden;
-  font-family: "YakanBakh";
-  background-color: #000000;
-  z-index: 1;
-
+.container-fluid{
+  margin-top: 20px;
 }
-@font-face {
-    font-family: 'YakanBakh';
-    src: url("../../assets/fonts/YekanBakh-Bold.ttf") format('truetype');
+.main {
+  background: linear-gradient(
+    to right,
+    var(--bs-body-bg) 0%,
+    var(--bs-body-bg) 40%,
+    var(--bs-body-bg) 70%,
+    var(--bs-main-color2) 90%,
+    var(--bs-main-color) 100%
+  );
+}
+#span-off {
+  background-color: var(--bs-submenu-bg);
+  font-family: var(--bs-font-md);
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+  animation: breathEffect 3s infinite ease-in-out;
+}
+@keyframes breathEffect {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
   }
-  
-.font-custom{
-    font-family: 'YakanBakh';
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
 }
-
-
-.header-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  color: #fff;
-  /* padding-top: 150px; این مقدار را می‌توانید تغییر دهید تا محتوا در جای مناسب قرار بگیرد */
+.title-main {
+  font-family: var(--bs-font-bold);
+  margin: 2.5rem 0;
+  font-size: 3rem;
 }
-.texts-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
+.text-main {
+  font-family: var(--bs-font-md);
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
-.texts-header span{
-    color: #e71818;
+#container-input-search {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--bs-btn-border-color);
 }
-.search-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 80px;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    background-color: #ffffff;
-    margin-top: 20px;
+#btn-search {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: var(--bs-submenu-bg);
+  color: #ffffff;
 }
-.search-container input{
-    width: 100%;
-    height: fit-content;
-    border: none;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 600;
+#input-search {
+  font-family: var(--bs-font-md);
+  font-size: 16px;
+  color: #6b7280;
+  background-color: transparent;
+  border: none;
+  margin-right: 5px;
 }
-
-.search-container input::placeholder{
-    color: #0000;
+.form-control:focus,
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
-
-.search-container input:focus{
-    outline: none;
+#input-search::placeholder {
+  font-size: 16px;
+  font-family: var(--bs-font-md);
+  color: var(--bs-btn-border-color);
 }
-#btn-search{
-    color: #000000;
-    border-left: 1px solid #000000;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 100;
+.img-main-header {
+  width: 60%;
 }

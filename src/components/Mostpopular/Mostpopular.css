@@ -1,40 +1,47 @@
-@font-face {
-  font-family: "YekanBakh";
-  src: url("./../../assets/fonts/YekanBakh-ExtraBlack.ttf");
-}
-@font-face {
-  font-family: "YekanBakhRegular";
-  src: url("./../../assets/fonts/YekanBakh-Bold.ttf");
-}
-@font-face {
-  font-family: "YekanBakhMedium";
-  src: url("./../../assets/fonts/YekanBakh-SemiBold.ttf");
+
+#container-most {
+  background: linear-gradient(
+    to right,
+    var(--bs-body-bg) 0%,
+    var(--bs-body-bg) 40%,
+    var(--bs-body-bg) 70%,
+    var(--bs-main-color2) 90%,
+    var(--bs-main-color) 100%
+  );
+  
 }
 
-
-/*  */
-
-#text-category {
-  font-family: "YekanBakhRegular";
-  font-size: 1rem;
-  margin-top: 1rem;
+.icon-popular-bac{
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #9f0e0e;
+}
+.icon-popular{
+  color: white;
+}
+.text-poular h2{
+  font-family: var(--bs-font-bold);
+  color: #9f0e0e;
+}
+.text-poular p{
+  font-family: var(--bs-font-md);
+  color: var( --bs-body-color);
 }
 
-#card img{
-    border-radius: 1rem;
+.text-poular{
+  margin-right: 10px;
 }
-#card h5{
-    font-family: "YekanBakhMedium";
-    font-size: 1.5rem;
-    color: #ffffff;
+
+.btn-popular button{
+  color: var( --bs-btn-bg);
+  background-color: var(--bs-body-bg);
+  padding: 10px 13px;
+  border-radius: 30px;
+  font-family: var(--bs-font-md);
+  border: none;
+  transition: all 0.3s ease;
 }
-.card-text{
-    font-family: "YekanBakhMedium";
-    font-size: 1rem;
-    color: rgb(189, 189, 189);
-}
-#container-mostpopular{
-    width: 100%;
-    height: 100%;
-    margin-top: 10rem;
+.btn-popular button:hover{
+color: #9f0e0e;
+background-color: var(--bs-body-bg);
 }

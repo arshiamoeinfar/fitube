@@ -1,58 +1,31 @@
-  import React from "react";
-  import "./Mostpopular.css";
-  import header from "./../../assets/images/wp2_1-1-768x432.webp";
-  import { Rating } from "@mui/material";
-  import StarIcon from "@mui/icons-material/Star";
-
-  const MostPopular = () => {
-    const [value, setValue] = React.useState(5);
-
-    return (
-      <div  className="container">
-        <div id="container-mostpopular" >
-          <div className="row justify-content-center">
-            <div className="col-12 p-4 text-end">
-              <h1 id="title" className="text-white">محبوب‌ترین ویدیوها</h1>
-            </div>
+import React from "react";
+import "./Mostpopular.css";
+import SlideshowIcon from "@mui/icons-material/Slideshow";
+import NorthWestIcon from '@mui/icons-material/NorthWest';
+const MostPopular = () => {
+  return (
+    <div id="container-most" className="container rounded-4 mt-5 p-3">
+      <div className="continer-popular  d-flex justify-content-between">
+      <div className="row w-100  d-flex justify-content-between align-items-center">
+        <div className="col-10 d-flex align-items-center">
+          <div className="icon-popular-bac">
+            <SlideshowIcon className="icon-popular" fontSize="large" />
           </div>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
-            {[...Array(8)].map((_, index) => (
-              <div key={index} className="col-md-6 col-lg-3 d-flex">
-                <div className="card bg-dark text-white shadow-sm w-100 rounded-4">
-                  <img
-                    src={header}
-                    className="card-img-top rounded-4"
-                    loading="lazy"
-                    alt="..."
-                  />
-                  <div className="card-body">
-                    <h5 id="text-category" className="card-title">آموزش جاوا اسکریپت با ترجمه اختصاصی</h5>
-                    <p className="card-text my-3">
-                      وردپرس پرکاربردترین و محبوب‌ترین سیستم مدیریت محتوا است که در
-                      دنیای طراحی سایت...
-                    </p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <span id="text-category" className="btn bg-warning text-white">امتیاز :</span>
-                      <Rating
-                        name="text-feedback"
-                        value={value}
-                        readOnly
-                        precision={0.5}
-                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
-                      />
-                    </div>
-                    <div className="d-flex justify-content-between align-items-center mt-2">
-                      <span id="text-category" className="btn bg-danger text-white ">مترجم :</span>
-                      <span id="text-category" className="btn text-white bg-primary">حسین حسینی</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+          <div className="text-poular me-4">
+            <h2>آخرین دوره ها</h2>
+            <p>منتشر شده</p>
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="btn-popular">
+            <button className="btn-disabled-hover">همه ی ویدیو ها <NorthWestIcon/></button>
           </div>
         </div>
       </div>
-    );
-  };
 
-  export default MostPopular;
+      </div>
+    </div>
+  );
+};
+
+export default MostPopular;
