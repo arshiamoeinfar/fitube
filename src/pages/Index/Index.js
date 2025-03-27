@@ -7,6 +7,7 @@ import CartPremium from "./../../components/CartPermium/CartPremium"
 import BuyPremium from "./../../components/BuyPremium/BuyPremium"
 import Footer from "./../../components/Footer/Footer"
 import Wayus from '../../components/WayUs/Wayus'
+import BoxCourses from '../../components/BoxCourses/BoxCourses'
 export default function Index() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Index() {
          <Header />
          <Wayus/>
          <MostPopular />
+         <BoxCourses/>
         {/* <Category />
         <BuyPremium />
         <CartPremium />

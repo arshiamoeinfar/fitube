@@ -20,6 +20,8 @@
     --bs-main-color: #15151A;
     --bs-main-color2: #111115;
     --bs-back-main-2:#121218;
+    --bs-btn-hover: #600707;
+    --bs-text-color: #ffffff;
 }
 :root[data-bs-theme="light"] {
     --bs-body-bg: #ffffff; /* پس‌زمینه کاملاً تاریک */
@@ -36,4 +38,6 @@
     --bs-main-color: #efefef;
     --bs-main-color2: #f4f4f4;
     --bs-back-main-2:#f1f1f1;
+    --bs-btn-hover: #600707;
+    --bs-text-color: #9f0e0e;
 }
