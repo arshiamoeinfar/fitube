@@ -9,14 +9,64 @@
 
 #footer{
     padding-top: 10rem;
-}
 
+}
+.logo-footer{
+    width: 100px;
+}
+.contact-us-section{
+    background-color: var(--bs-back-main-2);
+}
+.icon-contact{
+    width: 60px;
+    height:60px;
+    margin-left: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var( --bg-utility-navbar);
+}
+.icon-contact-us{
+    width: 60px;
+    height:60px;
+    margin-left: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var( --bg-utility-navbar);
+}
+.contact-us-title{
+    font-family: var(--bs-font-bold);
+    font-size: 1.2rem;
+    color: var(--bs-body-color);
+}
+.contact-us-text{
+    font-family: var(--bs-font-md);
+    color:#6b7280;
+}
+.contact-text{
+    font-family: var(--bs-font-md);
+    font-size: 1rem;
+    color: rgb(196, 196, 196);
+}
+.contact-text h5{
+    font-family: var(--bs-font-bold);
+    font-size: 1.2rem;
+    color: #9f0e0e;
+}
+.contact-text p{
+    font-family: var(--bs-font-md);
+    font-size: 0.9rem;
+    color: var(--bs-body-color);
+}
 .footer-title{
-    font-family: "YakanBakh";
+    font-family: var(--bs-font-bold);
     font-size: 1.5rem;
 }
 .footer-title p{
-    font-family: "YakanBakh";
+    font-family: var(--bs-font-bold);
     font-size: 1.5rem;
 }
 
@@ -25,21 +75,63 @@
     font-size: 1rem;
     text-decoration: none;
     cursor: pointer;
-    color: rgb(196, 196, 196);
+    color: #6b7280;
+    transition: all 0.3s ease;
 }
 
 .footer-text:hover{
-    color: #a9a9a9;
+    color: var(--bs-btn-hover);
 }
-
-#footer-about-us{
-    font-family: "YakanBakhMedium";
-    font-size: 1rem;
-    color: rgb(196, 196, 196);
+.links-help{
+width: fit-content;
+height:240px;
+line-height: 2;
 }
-
+.contact-email{
+    font-family: var(--bs-font-md);
+    font-size: 15px;
+    color: #6b7280;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: var(--bg-utility-navbar);
+}
+.footer-title{
+    color: var( --bs-body-color);
+}
+.contact-email input{
+    width: 80%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background: none;
+    color: #6b7280;
+}
+.btn-contact-us-email{
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-family: var(--bs-font-md);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #9f0e0e;
+    border: none;
+    color: white;
+}
+.btn-contact-us-email:hover{
+    background-color: #600707;
+}
+.icon-contact{
+    cursor: pointer;
+}
 #footer-copy-right{
-    font-family: "YakanBakhMedium";
-    font-size: 1rem;
-    color: rgb(199, 199, 199);
+    font-family: var(--bs-font-md);
+    font-size: 0.8rem;
+    color: #6b7280;
+    text-align: center;
+    background-color: none;
 }

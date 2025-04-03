@@ -8,6 +8,7 @@ import BuyPremium from "./../../components/BuyPremium/BuyPremium"
 import Footer from "./../../components/Footer/Footer"
 import Wayus from '../../components/WayUs/Wayus'
 import BoxCourses from '../../components/BoxCourses/BoxCourses'
+import Comments from '../../components/Comments/Comments'
 export default function Index() {
   return (
     <>
@@ -16,10 +17,8 @@ export default function Index() {
          <Wayus/>
          <MostPopular />
          <BoxCourses/>
-        {/* <Category />
-        <BuyPremium />
-        <CartPremium />
-        <Footer /> */}
+         <Comments/>
+        <Footer />
     </>
   )
 }

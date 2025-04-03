@@ -4,7 +4,7 @@
       border-radius: 1rem;
 }
 .swiper-button-prev{
-    background-color: var(--bs-body-bg);
+    background-color: #e4e4e4;
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -12,7 +12,7 @@
     transition: all 0.3s ease;
 }
 .swiper-button-next{
-    background-color: var(--bs-body-bg);
+    background-color: #e4e4e4;
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -25,7 +25,7 @@
 }
 .swiper-button-next:hover ,
 .swiper-button-prev:hover{
-    background-color: var(--bs-body-bg);
+    background-color: #cccccc;
 }
 .img-courses img{
     width: 300px;
