@@ -11,6 +11,10 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import DarkMode from "../DarkMode/DarkMode";
 import CloseIcon from "@mui/icons-material/Close";
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 const Header = () => {
   const [isShowSerachBox, setIsShowSerachBox] = useState(false);
   const [isShowPanelBox, setIsShowPanelBox] = useState(false);
@@ -172,7 +176,7 @@ const Header = () => {
                   className="d-flex"
                   onClick={() => setIsShowPanelBox(!isShowPanelBox)}
                 >
-                  <div className="menu  d-flex justify-contant-end align-items-end ">
+                  <div className="menu  ">
                     <li
                       className=" mx-3 text-decoration-none nav_link d-flex"
                       to="#home"
@@ -187,10 +191,31 @@ const Header = () => {
                       <div className="userLoginArrow me-2">
                         <KeyboardArrowDownIcon className="" />
                       </div>
-                      <div className="subMenu">
+                      <div className="subMenu-panelBox">
+                        <li className="">
+                          <HomeOutlinedIcon/>
+                          <span>پیشخوان</span>
+                          
+                        </li>
                         <li>
-                          <AccountCircleOutlinedIcon />
-                          مشاهده پروفایل
+                          <VideoLibraryOutlinedIcon />
+                          <span>دوره ها</span>
+                          
+                        </li>
+                        <li>
+                        <AccountCircleOutlinedIcon />
+                        <span>جزئیات حساب کاربری</span>
+                          
+                        </li>
+                        <li>
+                          <QuestionAnswerOutlinedIcon />
+                          <span>پرسش و دیدگاه ها</span>
+                          
+                        </li>
+                        <li>
+                          <LogoutOutlinedIcon />
+                          <span>خروج از حساب کاربری</span>
+                          
                         </li>
                       </div>
                     </li>

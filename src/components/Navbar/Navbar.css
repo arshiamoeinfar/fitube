@@ -15,9 +15,9 @@
   background-color: var(--bs-body-bg);
 }
 #navbar-container {
-width: 80%;
+  width: 80%;
 }
-.search-box{
+.search-box {
   position: relative;
   top: 0;
   transition: all 0.3s ease;
@@ -44,19 +44,37 @@ width: 80%;
 .subMenu {
   position: absolute;
   top: 5.5rem;
-  background-color:var(--bs-body-bg);
+  background-color: var(--bs-body-bg);
   transition: all 200ms ease-in-out;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 0.5rem;
   width: 200px;
   z-index: 10000;
-  padding: 1rem;
+  padding: 1.1rem;
   border-bottom: 3px solid gray;
   opacity: 0;
   visibility: hidden;
 }
-
 .nav_link:hover .subMenu {
+  opacity: 1;
+  visibility: visible;
+  top: 6rem;
+}
+.subMenu-panelBox {
+  position: absolute;
+  top: 5.5rem;
+  background-color: var(--bs-body-bg);
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+  width: 250px;
+  z-index: 10000;
+  padding: 1.1rem;
+  border-bottom: 3px solid gray;
+  opacity: 0;
+  visibility: hidden;
+}
+.nav_link:hover .subMenu-panelBox {
   opacity: 1;
   visibility: visible;
   top: 6rem;
@@ -64,24 +82,40 @@ width: 80%;
 /* .subMenu {
   width: 100%;
   } */
-  .subMenu li {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    list-style: none;
-    width: 100%;
-    margin-bottom: 15px;
+.subMenu li {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 15px;
   cursor: pointer;
   font-family: var(--bs-font-md);
   color: #6b7280;
 }
 .subMenu li:hover {
-  color: var( --bs-submenu-bg);
+  color: var(--bs-submenu-bg);
 }
-
+.subMenu-panelBox li {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-family: var(--bs-font-md);
+  color: var(--bs-body-color);
+}
+.subMenu-panelBox li:hover {
+  color: var( --bs-btn-hover-light);
+}
+.subMenu-panelBox li span{
+  margin-right: 10px;
+  font-size: 15px;
+  font-family: var(--bs-font-md);
+}
 ._icon_Navbar {
-  background-color: var( --bg-utility-navbar);
-  color: var( --bs-btn-bg);
+  background-color: var(--bg-utility-navbar);
+  color: var(--bs-btn-bg);
   padding: 10px;
   width: 45px;
   height: 45px;
@@ -93,15 +127,15 @@ width: 80%;
   position: relative;
 }
 
-.icon-close-searchBox{
+.icon-close-searchBox {
   width: 60px;
-  height:60px;
+  height: 60px;
   margin-right: 1rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var( --bg-utility-navbar);
+  background-color: var(--bg-utility-navbar);
   cursor: pointer;
   transition: all 0.3s ease;
   color: #6b7280;
@@ -109,38 +143,38 @@ width: 80%;
 .icon-close-searchBox:hover {
   color: var(--bs-btn-hover);
 }
-.userLoginInfo{
-    cursor: pointer;
+.userLoginInfo {
+  cursor: pointer;
 }
 
 .userLoginInfo h3 {
   font-size: 15px;
   font-family: var(--bs-font-bold);
-  color: var( --bs-body-color);
+  color: var(--bs-body-color);
 }
 .userLoginInfo p {
   font-size: 12px;
-  font-weight:bold;
+  font-weight: bold;
   font-family: var(--bs-font-md);
   color: #6b7280;
 }
-.userLoginArrow{
-    color: var(--bs-btn-bg);
+.userLoginArrow {
+  color: var(--bs-btn-bg);
 }
 
-.number_product{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: var(--bs-submenu-bg);
-    top: -6px;
-    left: -6px;
-    font-family: var(--bs-font-md);
+.number_product {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--bs-submenu-bg);
+  top: -6px;
+  left: -6px;
+  font-family: var(--bs-font-md);
 }
 
 @keyframes ping {
