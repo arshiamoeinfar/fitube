@@ -22,6 +22,7 @@
 .swiper-button-next::after ,
 .swiper-button-prev::after{
     color: var( --bs-body-color);
+    font-size: 18px; /* اندازه فلش */
 }
 .swiper-button-next:hover ,
 .swiper-button-prev:hover{

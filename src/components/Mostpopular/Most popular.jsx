@@ -12,7 +12,7 @@ const MostPopular = () => {
             <SlideshowIcon className="icon-popular" fontSize="large" />
           </div>
           <div className="text-poular me-4">
-            <h2>آخرین دوره های</h2>
+            <h2>محبوب ترین ویدیو های</h2>
             <p>منتشر شده</p>
           </div>
         </div>

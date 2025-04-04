@@ -1,7 +1,7 @@
 
 import "./Header.css";
 import SearchIcon from '@mui/icons-material/Search';
-import BoxHeader from "../BoxHeader/BoxHeader";
+// import BoxHeader from "../BoxHeader/BoxHeader";
 import main from "./../../assets/images/main.png";
 import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 const AnimatedHeader = () => {
