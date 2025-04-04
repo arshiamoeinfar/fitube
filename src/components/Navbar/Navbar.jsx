@@ -176,10 +176,10 @@ const Header = () => {
                   className="d-flex"
                   onClick={() => setIsShowPanelBox(!isShowPanelBox)}
                 >
-                  <div className="menu  ">
-                    <li
+                  <div className="menu">
+                    <Link
                       className=" mx-3 text-decoration-none nav_link d-flex"
-                      to="#home"
+                      to="/paneluser"
                     >
                       <div className="_icon_Navbar mx-2">
                         <PersonOutlineOutlinedIcon className=" " />
@@ -192,33 +192,33 @@ const Header = () => {
                         <KeyboardArrowDownIcon className="" />
                       </div>
                       <div className="subMenu-panelBox">
-                        <li className="">
+                        <Link to="/paneluser" className="subMenu-panelBox-link">
                           <HomeOutlinedIcon/>
-                          <span>پیشخوان</span>
+                          <span className="me-2">پیشخوان</span>
                           
-                        </li>
-                        <li>
+                        </Link>
+                        <Link className="subMenu-panelBox-link">
                           <VideoLibraryOutlinedIcon />
-                          <span>دوره ها</span>
+                          <span className="me-2">دوره ها</span>
                           
-                        </li>
-                        <li>
+                        </Link >
+                        <Link className="subMenu-panelBox-link">
                         <AccountCircleOutlinedIcon />
-                        <span>جزئیات حساب کاربری</span>
+                        <span className="me-2">جزئیات حساب کاربری</span>
                           
-                        </li>
-                        <li>
+                        </Link >
+                        <Link className="subMenu-panelBox-link">
                           <QuestionAnswerOutlinedIcon />
-                          <span>پرسش و دیدگاه ها</span>
+                          <span className="me-2">پرسش و دیدگاه ها</span>
                           
-                        </li>
-                        <li>
+                        </Link>
+                        <Link className="subMenu-panelBox-link">
                           <LogoutOutlinedIcon />
-                          <span>خروج از حساب کاربری</span>
+                          <span className="me-2">خروج از حساب کاربری</span>
                           
-                        </li>
+                        </Link>
                       </div>
-                    </li>
+                    </Link>
                   </div>
                 </div>
               </div>

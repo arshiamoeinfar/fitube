@@ -96,7 +96,7 @@
 .subMenu li:hover {
   color: var(--bs-submenu-bg);
 }
-.subMenu-panelBox li {
+.subMenu-panelBox-link {
   display: flex;
   list-style: none;
   width: 100%;
@@ -104,8 +104,9 @@
   cursor: pointer;
   font-family: var(--bs-font-md);
   color: var(--bs-body-color);
+  text-decoration: none;
 }
-.subMenu-panelBox li:hover {
+.subMenu-panelBox-link:hover {
   color: var( --bs-btn-hover-light);
 }
 .subMenu-panelBox li span{

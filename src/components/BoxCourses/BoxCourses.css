@@ -6,27 +6,27 @@
 .swiper-button-prev{
     background-color: var(--bs-body-bg);
     padding: 10px;
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
 .swiper-button-next{
     background-color: var(--bs-body-bg);
     padding: 10px;
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
     border-radius: 50%;
     transition: all 0.3s ease;
 }
-.swiper-button-next::after ,
+.swiper-button-next::after,
 .swiper-button-prev::after{
     color: var( --bs-body-color);
-    font-size: 18px; /* اندازه فلش */
+    font-size: 18px !important;
 }
 .swiper-button-next:hover ,
 .swiper-button-prev:hover{
-    background-color: var(--bs-body-bg);
+    background-color: var(--bs-body-bg) !important;
 }
 .img-courses img{
     width: 300px;
