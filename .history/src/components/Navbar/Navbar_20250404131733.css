@@ -9,10 +9,8 @@
 
 #navbar {
   border-bottom: 1px solid #3e424b;
-  position: sticky;
+  position: st;
   top: 0;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
 }
 #navbar-container {
 width: 80%;

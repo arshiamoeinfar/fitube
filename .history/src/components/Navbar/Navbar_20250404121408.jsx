@@ -12,23 +12,15 @@ import DarkMode from "../DarkMode/DarkMode";
 import CloseIcon from "@mui/icons-material/Close";
 const Header = () => {
   const [isShowSerachBox, setIsShowSerachBox] = useState(false);
-  const [isShowPanelBox, setIsShowPanelBox] = useState(false);
 
   return (
     <Navbar id="navbar" className="container-fluid px-3 mx-auto ">
       {isShowSerachBox ? (
         <div className="container  p-0 search-box w-100 d-flex justify-content-between align-items-center">
           <div className="contact-email">
-            <input
-              type="text"
-              placeholder="نام دوزه یا مقاله را جستجو نمایید..."
-              className="w-100"
-            />
+            <input type="text" placeholder="نام دوزه یا مقاله را جستجو نمایید..." className="w-100"/>
           </div>
-          <div
-            className="icon-close-searchBox"
-            onClick={() => setIsShowSerachBox(false)}
-          >
+          <div className="icon-close-searchBox" onClick={() => setIsShowSerachBox(false)}>
             <CloseIcon fontSize="medium" />
           </div>
         </div>
@@ -166,34 +158,18 @@ const Header = () => {
                     </span>
                   </span>
                 </div>
+                <div className="d-flex justify-content-center align-items-center userLogin">
+                <div className="_icon_Navbar">
+                  <PersonOutlineOutlinedIcon className=" " />
+                </div>
+                <div className="userLoginInfo">
+                  <h3>ارشیا معین فر</h3>
+                  <p>خوش آمدید</p>
+                </div>
+                <div className="userLoginArrow">
+                  <KeyboardArrowDownIcon className="" />
+                </div>
 
-                <div
-                  className="d-flex"
-                  onClick={() => setIsShowPanelBox(!isShowPanelBox)}
-                >
-                  <div className="menu  d-flex justify-contant-end align-items-end ">
-                    <li
-                      className=" mx-3 text-decoration-none nav_link d-flex"
-                      to="#home"
-                    >
-                      <div className="_icon_Navbar mx-2">
-                        <PersonOutlineOutlinedIcon className=" " />
-                      </div>
-                      <div className="userLoginInfo">
-                        <h3>ارشیا معین فر</h3>
-                        <p>خوش آمدید</p>
-                      </div>
-                      <div className="userLoginArrow me-2">
-                        <KeyboardArrowDownIcon className="" />
-                      </div>
-                      <div className="subMenu">
-                        <li>
-                          مشاهده پروفایل
-                          <KeyboardArrowLeftIcon />
-                        </li>
-                      </div>
-                    </li>
-                  </div>
                 </div>
               </div>
             </div>

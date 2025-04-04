@@ -92,6 +92,7 @@ const Header = () => {
                       </div>
                     </li>
                   </div>
+
                   <div className="menu  d-flex justify-contant-end align-items-end ">
                     <li
                       className=" mx-3 text-decoration-none nav_link"
@@ -166,16 +167,25 @@ const Header = () => {
                     </span>
                   </span>
                 </div>
-
                 <div
                   className="d-flex"
                   onClick={() => setIsShowPanelBox(!isShowPanelBox)}
                 >
-                  <div className="menu  d-flex justify-contant-end align-items-end ">
-                    <li
-                      className=" mx-3 text-decoration-none nav_link d-flex"
-                      to="#home"
-                    >
+                  {isShowPanelBox ? (
+                    {console.log();
+                    }
+                    <div className="menu bg-primary d-flex justify-contant-end align-items-end ">
+                      <div className="subMenu">
+                        <li>
+                          <KeyboardArrowLeftIcon />
+                          <span className="mx-2">خروج از حساب کاربری</span>
+                        </li>
+                      </div>
+                    </div>
+                  ) : (
+                    <>
+                    </>
+                  )}
                       <div className="_icon_Navbar mx-2">
                         <PersonOutlineOutlinedIcon className=" " />
                       </div>
@@ -186,14 +196,6 @@ const Header = () => {
                       <div className="userLoginArrow me-2">
                         <KeyboardArrowDownIcon className="" />
                       </div>
-                      <div className="subMenu">
-                        <li>
-                          مشاهده پروفایل
-                          <KeyboardArrowLeftIcon />
-                        </li>
-                      </div>
-                    </li>
-                  </div>
                 </div>
               </div>
             </div>

@@ -9,10 +9,6 @@
 
 #navbar {
   border-bottom: 1px solid #3e424b;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
 }
 #navbar-container {
 width: 80%;
@@ -56,11 +52,11 @@ width: 80%;
   visibility: hidden;
 }
 
-.nav_link:hover .subMenu {
+/* .nav_link:hover .subMenu {
   opacity: 1;
   visibility: visible;
   top: 6rem;
-}
+} */
 /* .subMenu {
   width: 100%;
   } */

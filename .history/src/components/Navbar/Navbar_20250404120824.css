@@ -9,18 +9,13 @@
 
 #navbar {
   border-bottom: 1px solid #3e424b;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
 }
 #navbar-container {
 width: 80%;
 }
 .search-box{
+
   position: relative;
-  top: 0;
-  transition: all 0.3s ease;
 }
 .logo-navbar {
   width: 90px;

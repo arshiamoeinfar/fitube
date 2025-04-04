@@ -9,18 +9,9 @@
 
 #navbar {
   border-bottom: 1px solid #3e424b;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
 }
 #navbar-container {
 width: 80%;
-}
-.search-box{
-  position: relative;
-  top: 0;
-  transition: all 0.3s ease;
 }
 .logo-navbar {
   width: 90px;
@@ -93,22 +84,6 @@ width: 80%;
   position: relative;
 }
 
-.icon-close-searchBox{
-  width: 60px;
-  height:60px;
-  margin-right: 1rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var( --bg-utility-navbar);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  color: #6b7280;
-}
-.icon-close-searchBox:hover {
-  color: var(--bs-btn-hover);
-}
 .userLoginInfo{
     cursor: pointer;
 }

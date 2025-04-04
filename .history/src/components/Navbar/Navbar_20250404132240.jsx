@@ -173,7 +173,7 @@ const Header = () => {
                 >
                   <div className="menu  d-flex justify-contant-end align-items-end ">
                     <li
-                      className=" mx-3 text-decoration-none nav_link d-flex"
+                      className=" mx-3 text-decoration-none nav_link di"
                       to="#home"
                     >
                       <div className="_icon_Navbar mx-2">
@@ -188,7 +188,35 @@ const Header = () => {
                       </div>
                       <div className="subMenu">
                         <li>
-                          مشاهده پروفایل
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
                           <KeyboardArrowLeftIcon />
                         </li>
                       </div>

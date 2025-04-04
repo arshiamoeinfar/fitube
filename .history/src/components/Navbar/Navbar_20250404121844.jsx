@@ -19,16 +19,9 @@ const Header = () => {
       {isShowSerachBox ? (
         <div className="container  p-0 search-box w-100 d-flex justify-content-between align-items-center">
           <div className="contact-email">
-            <input
-              type="text"
-              placeholder="نام دوزه یا مقاله را جستجو نمایید..."
-              className="w-100"
-            />
+            <input type="text" placeholder="نام دوزه یا مقاله را جستجو نمایید..." className="w-100"/>
           </div>
-          <div
-            className="icon-close-searchBox"
-            onClick={() => setIsShowSerachBox(false)}
-          >
+          <div className="icon-close-searchBox" onClick={() => setIsShowSerachBox(false)}>
             <CloseIcon fontSize="medium" />
           </div>
         </div>
@@ -92,6 +85,7 @@ const Header = () => {
                       </div>
                     </li>
                   </div>
+
                   <div className="menu  d-flex justify-contant-end align-items-end ">
                     <li
                       className=" mx-3 text-decoration-none nav_link"
@@ -166,34 +160,67 @@ const Header = () => {
                     </span>
                   </span>
                 </div>
-
-                <div
-                  className="d-flex"
-                  onClick={() => setIsShowPanelBox(!isShowPanelBox)}
-                >
-                  <div className="menu  d-flex justify-contant-end align-items-end ">
+                <div className="d-flex" onClick={() => setIsShowPanelBox(!isShowPanelBox)}>
+                  {
+                    isShowPanelBox ? (
+              <div className="menu  d-flex justify-contant-end align-items-end ">
                     <li
-                      className=" mx-3 text-decoration-none nav_link d-flex"
+                      className=" mx-3 text-decoration-none nav_link"
                       to="#home"
                     >
-                      <div className="_icon_Navbar mx-2">
-                        <PersonOutlineOutlinedIcon className=" " />
-                      </div>
-                      <div className="userLoginInfo">
-                        <h3>ارشیا معین فر</h3>
-                        <p>خوش آمدید</p>
-                      </div>
-                      <div className="userLoginArrow me-2">
-                        <KeyboardArrowDownIcon className="" />
-                      </div>
+                      دسته بندی آموزشها
+                      <KeyboardArrowDownIcon />
                       <div className="subMenu">
                         <li>
-                          مشاهده پروفایل
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
+                          <KeyboardArrowLeftIcon />
+                        </li>
+                        <li>
+                          برنامه نویسی
                           <KeyboardArrowLeftIcon />
                         </li>
                       </div>
                     </li>
                   </div>
+                    ):(
+
+                    )
+                <div className="_icon_Navbar mx-2">
+                  <PersonOutlineOutlinedIcon className=" " />
+                </div>
+                <div className="userLoginInfo">
+                  <h3>ارشیا معین فر</h3>
+                  <p>خوش آمدید</p>
+                </div>
+                <div className="userLoginArrow me-2">
+                  <KeyboardArrowDownIcon className="" />
+                </div>
+                  }
+
                 </div>
               </div>
             </div>

@@ -188,7 +188,7 @@ const Header = () => {
                       </div>
                       <div className="subMenu">
                         <li>
-                          مشاهده پروفایل
+                          برنامه نویسی
                           <KeyboardArrowLeftIcon />
                         </li>
                       </div>

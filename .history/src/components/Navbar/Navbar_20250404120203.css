@@ -9,18 +9,9 @@
 
 #navbar {
   border-bottom: 1px solid #3e424b;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
 }
 #navbar-container {
 width: 80%;
-}
-.search-box{
-  position: relative;
-  top: 0;
-  transition: all 0.3s ease;
 }
 .logo-navbar {
   width: 90px;
@@ -92,7 +83,13 @@ width: 80%;
   align-items: center;
   position: relative;
 }
-
+._icon_Navbar:hover {
+  background-color: var(--bs-btn-hover);
+  color: var(--bs-btn-bg);
+}
+._icon_Navbar:hover .ping-effect {
+  animation: ping 1s infinite ease-out;
+}
 .icon-close-searchBox{
   width: 60px;
   height:60px;
@@ -103,11 +100,6 @@ width: 80%;
   align-items: center;
   background-color: var( --bg-utility-navbar);
   cursor: pointer;
-  transition: all 0.3s ease;
-  color: #6b7280;
-}
-.icon-close-searchBox:hover {
-  color: var(--bs-btn-hover);
 }
 .userLoginInfo{
     cursor: pointer;

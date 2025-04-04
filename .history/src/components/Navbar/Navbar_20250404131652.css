@@ -9,13 +9,10 @@
 
 #navbar {
   border-bottom: 1px solid #3e424b;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: var(--bs-body-bg);
 }
 #navbar-container {
 width: 80%;
+pos
 }
 .search-box{
   position: relative;

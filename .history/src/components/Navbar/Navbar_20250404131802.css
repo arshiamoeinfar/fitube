@@ -12,7 +12,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--bs-body-bg);
+  background-color: var();
 }
 #navbar-container {
 width: 80%;
