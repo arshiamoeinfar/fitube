@@ -10,6 +10,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import DarkMode from "../DarkMode/DarkMode";
 import CloseIcon from "@mui/icons-material/Close";
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 const Header = () => {
   const [isShowSerachBox, setIsShowSerachBox] = useState(false);
   const [isShowPanelBox, setIsShowPanelBox] = useState(false);
@@ -188,8 +189,8 @@ const Header = () => {
                       </div>
                       <div className="subMenu">
                         <li>
+                          <AccountCircleOutlinedIcon />
                           مشاهده پروفایل
-                          <KeyboardArrowLeftIcon />
                         </li>
                       </div>
                     </li>
