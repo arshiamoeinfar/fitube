@@ -40,3 +40,45 @@
     background-color: var(--bs-btn-hover);
     color: #fff;
 }
+
+
+.detail-box-panel{
+    background-color: var(--bg-utility-navbar);
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.icon-detail-box-panel{
+  width: 60px;
+  height:60px;
+  margin-left: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bs-body-bg);
+}
+.detail-panel-box-text h5{
+  font-family: var(--bs-font-bold);
+  font-size: 14px;
+  color: var(--bs-body-color);
+}
+.detail-panel-box-text p{
+  color: #6b6b6b;
+  font-size: 14px;
+  font-family: var(--bs-font-md);
+}
+.icon-detail-box-panel-top-1{
+  color: rgb(112, 0, 127);
+}
+.icon-detail-box-panel-top-2{
+  color: rgb(1, 117, 10);
+}
+.icon-detail-box-panel-top-3{
+  color: rgb(191, 169, 0);
+}
+.icon-detail-box-panel-top-4{
+  color: rgb(144, 3, 3);
+}
