@@ -179,7 +179,7 @@ const Header = () => {
                   <div className="menu">
                     <Link
                       className=" mx-3 text-decoration-none nav_link d-flex"
-                      to="/paneluser"
+                      to="/paneluser/my-account"
                     >
                       <div className="_icon_Navbar mx-2">
                         <PersonOutlineOutlinedIcon className=" " />
@@ -192,12 +192,14 @@ const Header = () => {
                         <KeyboardArrowDownIcon className="" />
                       </div>
                       <div className="subMenu-panelBox">
-                        <Link to="/paneluser" className="subMenu-panelBox-link">
+                        <Link to="/paneluser/my-account" className="subMenu-panelBox-link">
                           <HomeOutlinedIcon/>
                           <span className="me-2">پیشخوان</span>
                           
                         </Link>
-                        <Link className="subMenu-panelBox-link">
+                        <Link className="subMenu-panelBox-link"
+                        to="/paneluser/course"
+                        >
                           <VideoLibraryOutlinedIcon />
                           <span className="me-2">دوره ها</span>
                           

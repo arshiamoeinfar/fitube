@@ -1,0 +1,44 @@
+
+.img-user {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+.profile-user-texts {
+    font-family: var(--bs-font-md);
+    margin-right: 10px;
+  }
+  .profile-user-texts h4 {
+    font-size: 15px;
+    color: #6b6b6b;
+  }
+  .profile-user-texts h5 {
+    font-size: 15px;
+    color: var(--bs-body-color);
+  }
+  .box-list-panel {
+    background-color: var(--bg-utility-navbar);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .bac-list-panel {
+    background-color: var(--bs-body-bg);
+    font-family: var(--bs-font-md);
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .text-list-box-panel:hover,
+  .bac-list-panel:hover {
+    background-color: var(--bs-btn-hover);
+    color: #fff;
+  }
+  
+  .box-list-panel .active{
+      background-color: var(--bs-btn-hover);
+      color: #fff;
+  }
