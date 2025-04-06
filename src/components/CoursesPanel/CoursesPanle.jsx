@@ -10,10 +10,12 @@ export default function CoursesPanle() {
         <div className="row">
           <SideBarPanel />
           <div className="col-9">
-            <div className="title-main d-flex">
+          <div className="title-main d-flex ">
+            <div className="icon-title-panle">
               <VideoLibraryOutlinedIcon />
-              <h4 className="me-3">دوره های من</h4>
             </div>
+            <h4 className="me-3 ">ویدیو های من</h4>
+          </div>
           <div className="row">
             <div className="col-4 g-3">
               <CourseBox />

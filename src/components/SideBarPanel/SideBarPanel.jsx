@@ -9,6 +9,7 @@ import ModeEditOutlinedIcon from "@mui/icons-material/ModeEditOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import imgUser from "./../../assets/images/01.jpeg";
+import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 export default function SideBarPanel() {
   return (
     <div className="col-3 mt-4">
@@ -33,7 +34,7 @@ export default function SideBarPanel() {
         </Link>
       </div>
       <div className=" d-flex mb-4">
-        <Link to="" className="bac-list-panel w-100">
+        <Link to="/paneluser/transaction" className="bac-list-panel w-100">
           <ShoppingBasketOutlinedIcon className="icon-list-box-panel" />
           <span className="me-2">تراکنش ها و کیف پول</span>
         </Link>
@@ -48,6 +49,12 @@ export default function SideBarPanel() {
         <Link to="" className="bac-list-panel w-100">
           <ModeEditOutlinedIcon className="icon-list-box-panel" />
           <span className="me-2">ویرایش پروفایل</span>
+        </Link>
+      </div>
+      <div className=" d-flex mb-4">
+        <Link to="" className="bac-list-panel w-100">
+          <CampaignOutlinedIcon className="icon-list-box-panel" />
+          <span className="me-2">اعلانات</span>
         </Link>
       </div>
       <div className=" d-flex mb-4">

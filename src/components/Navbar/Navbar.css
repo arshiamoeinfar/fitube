@@ -154,9 +154,9 @@
   color: var(--bs-body-color);
 }
 .userLoginInfo p {
+  font-family: var(--bs-font-bold);
   font-size: 12px;
-  font-weight: bold;
-  font-family: var(--bs-font-md);
+  font-weight: 300;
   color: #6b7280;
 }
 .userLoginArrow {
