@@ -1,0 +1,39 @@
+.box-panel-comments {
+  background-color: var(--bs-main-color);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.img-course-comment {
+  width: 30%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.detail-comments {
+  margin-right: 20px;
+}
+.detail-comments h3 {
+  font-family: var(--bs-font-bold);
+}
+.detail-comments span {
+  font-family: var(--bs-font-md);
+  color: #028400;
+}
+.detail-comments p {
+  font-family: var(--bs-font-md);
+  color: #6b6b6b;
+}
+.detail-comments button {
+  font-family: var(--bs-font-md);
+  color: #fff;
+  background-color: var(--bs-btn-hover);
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 15px;
+}
+.detail-comments button:hover {
+  background-color: var(--bs-btn-hover-light);
+}

@@ -40,13 +40,13 @@ export default function SideBarPanel() {
         </Link>
       </div>
       <div className=" d-flex mb-4">
-        <Link to="" className="bac-list-panel w-100">
+        <Link to="/paneluser/comment" className="bac-list-panel w-100">
           <QuestionAnswerOutlinedIcon className="icon-list-box-panel" />
           <span className="me-2">دیدگاه ها و پرسش ها</span>
         </Link>
       </div>
       <div className=" d-flex mb-4">
-        <Link to="" className="bac-list-panel w-100">
+        <Link to="/paneluser/edit-profile" className="bac-list-panel w-100">
           <ModeEditOutlinedIcon className="icon-list-box-panel" />
           <span className="me-2">ویرایش پروفایل</span>
         </Link>
