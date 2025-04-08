@@ -3,6 +3,7 @@ import CoursesPanle from "./components/CoursesPanel/CoursesPanle";
 import EditPanelUser from "./components/EditPanelUser/EditPanelUser";
 import FainancialTransactions from "./components/FainancialTransactions/FainancialTransactions";
 import MainPanelUser from "./components/MainPanel/MainPanelUser";
+import NotificationPanel from "./components/NotificationPanel/NotificationPanel";
 import Index from "./pages/Index/Index";
 import PanelUser from "./pages/PanelUser/PanelUser";
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
           { path: "transaction", element: <FainancialTransactions /> },
           { path: "comment", element: <CommentPanel /> },
           { path: "edit-profile", element: <EditPanelUser /> },
+          { path: "notification", element: <NotificationPanel /> },
           { path: "*", element: <h1>404 Not Found</h1> },
         ],
       },

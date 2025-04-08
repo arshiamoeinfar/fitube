@@ -1,16 +1,20 @@
 import React from 'react'
 import "./SideBarPanel.css"
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import VideoLibraryOutlinedIcon from "@mui/icons-material/VideoLibraryOutlined";
 import ShoppingBasketOutlinedIcon from "@mui/icons-material/ShoppingBasketOutlined";
 import QuestionAnswerOutlinedIcon from "@mui/icons-material/QuestionAnswerOutlined";
 import ModeEditOutlinedIcon from "@mui/icons-material/ModeEditOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
-import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import imgUser from "./../../assets/images/01.jpeg";
 import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 export default function SideBarPanel() {
+
+  const {paneluser} = useParams()
+
+  console.log(paneluser);
+  
   return (
     <div className="col-3 mt-4">
     <div className="profile-user d-flex">
@@ -52,7 +56,7 @@ export default function SideBarPanel() {
         </Link>
       </div>
       <div className=" d-flex mb-4">
-        <Link to="" className="bac-list-panel w-100">
+        <Link to="/paneluser/notification" className="bac-list-panel w-100">
           <CampaignOutlinedIcon className="icon-list-box-panel" />
           <span className="me-2">اعلانات</span>
         </Link>

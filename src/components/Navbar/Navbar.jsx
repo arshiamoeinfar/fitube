@@ -204,12 +204,12 @@ const Header = () => {
                           <span className="me-2">دوره ها</span>
                           
                         </Link >
-                        <Link className="subMenu-panelBox-link">
+                        <Link to="/paneluser/edit-profile" className="subMenu-panelBox-link">
                         <AccountCircleOutlinedIcon />
                         <span className="me-2">جزئیات حساب کاربری</span>
                           
                         </Link >
-                        <Link className="subMenu-panelBox-link">
+                        <Link to="/paneluser/comment" className="subMenu-panelBox-link">
                           <QuestionAnswerOutlinedIcon />
                           <span className="me-2">پرسش و دیدگاه ها</span>
                           
