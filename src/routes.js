@@ -6,8 +6,10 @@ import MainPanelUser from "./components/MainPanel/MainPanelUser";
 import NotificationPanel from "./components/NotificationPanel/NotificationPanel";
 import Index from "./pages/Index/Index";
 import PanelUser from "./pages/PanelUser/PanelUser";
+import ShoppingCart from "./pages/ShoppingCart/ShoppingCart";
 const routes = [
     { path: "/", element: <Index /> },
+    { path: "/cart", element: <ShoppingCart /> },
     {
         path: "/paneluser",
         element: <PanelUser />,

@@ -162,7 +162,7 @@ const Header = () => {
                 >
                   <SearchIcon className=" " />
                 </div>
-                <div className="_icon_Navbar">
+                <Link  to="/cart" className="_icon_Navbar">
                   <ShoppingCartOutlinedIcon className=" " />
                   <span className="number_product reletive">
                     <span class="ping-effect"></span>
@@ -170,7 +170,7 @@ const Header = () => {
                       2
                     </span>
                   </span>
-                </div>
+                </Link>
 
                 <div
                   className="d-flex"

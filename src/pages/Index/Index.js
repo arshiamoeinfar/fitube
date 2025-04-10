@@ -15,7 +15,7 @@ export default function Index() {
         <Navbar />
          <Header />
          <Wayus/>
-         <MostPopular />
+         <MostPopular titleName="بهترین ویدیو های " text="منتشر شده" btnText="همه ی دوره ها"/>
          <BoxCourses/>
          <Comments/>
         <Footer />

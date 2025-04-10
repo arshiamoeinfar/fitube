@@ -1,0 +1,43 @@
+.box-shop {
+  border-radius: 10px;
+  background-color: var(--bs-main-color);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.img-box-shop {
+  width: 20%;
+  cursor: pointer;
+}
+
+.info-shop-cart {
+  margin-right: 30px;
+}
+.title-course-shop {
+  font-family: var(--bs-font-bold);
+  color: var(--bs-text-color);
+  cursor: pointer;
+}
+.info-teacher {
+  font-family: var(--bs-font-md);
+  color: #6b7280;
+}
+.pric-box-shop {
+  font-family: var(--bs-font-md);
+  margin-left: 40px;
+}
+.remove-box-shop {
+  background-color: var(--bg-utility-navbar);
+  color: var(--bs-btn-hover-light);
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
