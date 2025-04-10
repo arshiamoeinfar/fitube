@@ -16,6 +16,7 @@ top: 180px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  color: var(--bs-text-color);
   align-items: center;
 }
 .disCount-Code {
