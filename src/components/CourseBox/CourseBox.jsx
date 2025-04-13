@@ -4,6 +4,7 @@ import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
 import imgcourses from "./../../assets/images/wp2_1-1-768x432.webp";
 import caracter from "./../../assets/images/01.jpeg";
 import NorthWestIcon from "@mui/icons-material/NorthWest";
+import { Link } from "react-router-dom";
 export default function CourseBox() {
   return (
     <div className="container-box-courses p-2">
@@ -46,7 +47,7 @@ export default function CourseBox() {
           </div>
         </div>
         <button className="w-100 btn-courses">
-          مشاهده دوره <NorthWestIcon />
+          <Link className="link" to="/course-info/web">    مشاهده دوره <NorthWestIcon /></Link>
         </button>
       </div>
     </div>

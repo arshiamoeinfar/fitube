@@ -160,10 +160,10 @@ const Header = () => {
                   className="_icon_Navbar"
                   onClick={() => setIsShowSerachBox(true)}
                 >
-                  <SearchIcon className=" " />
+                  <SearchIcon />
                 </div>
                 <Link  to="/cart" className="_icon_Navbar">
-                  <ShoppingCartOutlinedIcon className=" " />
+                  <ShoppingCartOutlinedIcon />
                   <span className="number_product reletive">
                     <span class="ping-effect"></span>
                     <span class="relative inline-flex h-5 w-5 bg-blue-500 rounded-full">

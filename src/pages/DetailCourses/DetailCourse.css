@@ -1,0 +1,61 @@
+.details-course {
+  background-color: var(--bs-body-bg);
+  border: 1px solid #958c8c20;
+}
+.title-img-course img{
+  z-index: 1000;
+  border-radius: 30px 30px 0 0;
+}
+.details-course h3{
+font-family: var(--bs-font-bold);
+}
+.details-course p{
+font-family: var(--bs-font-md);
+color: #6b7280;
+margin: 20px 0;
+}
+.detail-course {
+  position: relative;
+  bottom: 20%;
+  background: linear-gradient(
+    to right,
+    var(--bs-body-bg) 0%,
+    var(--bs-body-bg) 40%,
+    var(--bs-body-bg) 70%,
+    var(--bs-main-color2) 90%,
+    var(--bs-main-color) 100%
+  );
+
+  font-family: var(--bs-font-md);
+  border-radius: 0 0 30px 30px;
+}
+.detail-course h4 {
+  font-family: var(--bs-font-bold);
+  margin: 10px 0;
+}
+.detail-course p {
+  color: #6b7280;
+}
+.box-info {
+  background-color: var(--bs-body-bg);
+  width: 50%;
+  margin-left: 10px;
+  padding: 20px 0;
+  border: 1px solid #93939338;
+  
+}
+.box-info span {
+  font-family: var(--bs-font-bold);
+  color: var(--bs-text-color);
+  font-size: 15px;
+  margin: 10px 0;
+}
+.box-info p {
+  font-family: var(--bs-font-md);
+  color: #6b7280;
+}
+
+
+
+
+

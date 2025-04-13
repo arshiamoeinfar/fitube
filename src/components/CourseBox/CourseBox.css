@@ -54,3 +54,8 @@ font-size: 1rem;
 .btn-courses:hover{
     background-color: #600707;
 }
+
+.link{
+text-decoration: none;
+color: aliceblue;
+}
