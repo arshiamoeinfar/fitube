@@ -8,6 +8,7 @@
 }
 .details-course h3{
 font-family: var(--bs-font-bold);
+color: var(--bs-text-color);
 }
 .details-course p{
 font-family: var(--bs-font-md);
@@ -32,6 +33,8 @@ margin: 20px 0;
 .detail-course h4 {
   font-family: var(--bs-font-bold);
   margin: 10px 0;
+color: var(--bs-text-color);
+
 }
 .detail-course p {
   color: #6b7280;
@@ -44,6 +47,9 @@ margin: 20px 0;
   border: 1px solid #93939338;
   
 }
+.icon-info-couse-box{
+  color: var(--bs-icon-info-box);
+}
 .box-info span {
   font-family: var(--bs-font-bold);
   color: var(--bs-text-color);
@@ -54,8 +60,105 @@ margin: 20px 0;
   font-family: var(--bs-font-md);
   color: #6b7280;
 }
+.title-accordion{
+  background-color: transparent;
+  font-family: var(--bs-font-bold);
+  margin-left: 10px;
+  color: var(--bs-text-color);
+}
+.accordion-header{
+  display: flex;
+  justify-content: space-between;
+}
 
 
+/* accordion bg transparent */
+.accordion-button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.accordion-button:hover {
+  background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button.collapsed {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+/* 180 deg in icon */
+
+.accordion-button .accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) .accordion-icon {
+  transform: rotate(180deg);
+}
+/* finish 180 deg in icon */
+
+/* حالت کلی برای دکمه آکاردیون */
+.accordion-button {
+  color: var(--bs-text-color); /* یا هر رنگی که می‌خوای */
+  background-color: transparent;
+}
+
+/* حالت وقتی که باز میشه */
+.accordion-button:not(.collapsed) {
+  color: var(--bs-text-color); /* همین رنگ بمونه */
+  background-color: transparent;
+}
 
 
+.box-accordion{
+  color: var(--bs-text-color);
+  border: 1px solid #a8a2a220;
+  border-radius: 10px;
+  text-align: center;
+}
+.time-accordion-box , .title-accordion-box{
+  font-family: var(--bs-font-md);
+}
+.num-box{
+  font-family: var(--bs-font-md);
+  color: var(--bs-btn-hover-light);
+  font-size: 18px;
+}
+.title-box-accordion h4{
+  font-family: var(--bs-font-bold);
+  font-size: 15px;
+  margin: 0 20px;
+}
+.detail-box-accordion button{
+  font-family: var(--bs-font-md);
+  color: #6b7280;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-right: 20px;
+  border: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
 
+.detail-box-accordion button:hover{
+  background-color: var(--bs-btn-hover);
+  color: var(--bs-body-color);
+}

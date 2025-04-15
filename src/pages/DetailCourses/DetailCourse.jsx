@@ -8,8 +8,11 @@ import PeopleOutlineOutlinedIcon from "@mui/icons-material/PeopleOutlineOutlined
 import CreateOutlinedIcon from "@mui/icons-material/CreateOutlined";
 import { Link } from "react-router-dom";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
-import CommentOutlinedIcon from "@mui/icons-material/CommentOutlined";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import NavbarCourse from "../../components/NavbarCourse/NavbarCourse";
+import Accordion from "react-bootstrap/Accordion";
+import NorthWestIcon from "@mui/icons-material/NorthWest";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 export default function DetailCourse() {
   return (
     <>
@@ -35,7 +38,7 @@ export default function DetailCourse() {
                 <div className="box-info  rounded-3  d-flex justify-content-center align-items-center flex-column">
                   <div className="icon-contact m-0">
                     <PeopleOutlineOutlinedIcon
-                      style={{ color: "#666" }}
+                      className="icon-info-couse-box"
                       fontSize="medium"
                     />
                   </div>
@@ -45,7 +48,7 @@ export default function DetailCourse() {
                 <div className="box-info  rounded-3  d-flex justify-content-center align-items-center flex-column">
                   <div className="icon-contact m-0">
                     <PeopleOutlineOutlinedIcon
-                      style={{ color: "#666" }}
+                      className="icon-info-couse-box"
                       fontSize="medium"
                     />
                   </div>
@@ -55,7 +58,7 @@ export default function DetailCourse() {
                 <div className="box-info  rounded-3  d-flex justify-content-center align-items-center flex-column">
                   <div className="icon-contact m-0">
                     <PeopleOutlineOutlinedIcon
-                      style={{ color: "#666" }}
+                      className="icon-info-couse-box"
                       fontSize="medium"
                     />
                   </div>
@@ -65,7 +68,7 @@ export default function DetailCourse() {
                 <div className="box-info  rounded-3  d-flex justify-content-center align-items-center flex-column">
                   <div className="icon-contact m-0">
                     <PeopleOutlineOutlinedIcon
-                      style={{ color: "#666" }}
+                      className="icon-info-couse-box"
                       fontSize="medium"
                     />
                   </div>
@@ -103,6 +106,96 @@ export default function DetailCourse() {
                 برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
                 زبان فارسی ایجاد کرد
               </p>
+              <Accordion className="accordtion" defaultActiveKey="0">
+                <Accordion.Item eventKey="0" className="">
+                  <Accordion.Header className="title-accordion d-flex justify-content-between align-items-center">
+                    <span>فصل اول</span>
+                    <ExpandMoreIcon className="accordion-icon" />
+                  </Accordion.Header>
+                  <Accordion.Body className="">
+                    <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
+                      <span className="mx-2 num-box">1</span>
+                      <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
+                        <div className="title-box-accordion">
+                          <h4 className="title-accordion-box">معرفی دوره</h4>
+                        </div>
+                        <div className="detail-box-accordion">
+                          <span className="time-accordion-box">
+                            2:00 <AccessTimeIcon />
+                          </span>
+                          <button>
+                            مشاهده{" "}
+                            <NorthWestIcon style={{ fontSize: "20px" }} />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Accordion.Body>
+                  <Accordion.Body className="">
+                    <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
+                      <span className="mx-2 num-box">2</span>
+                      <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
+                        <div className="title-box-accordion">
+                          <h4 className="title-accordion-box">معرفی دوره</h4>
+                        </div>
+                        <div className="detail-box-accordion">
+                          <span className="time-accordion-box">
+                            2:00 <AccessTimeIcon />
+                          </span>
+                          <button>
+                            مشاهده{" "}
+                            <NorthWestIcon style={{ fontSize: "20px" }} />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Accordion.Body>
+                  <Accordion.Body className="">
+                    <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
+                      <span className="mx-2 num-box">3</span>
+                      <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
+                        <div className="title-box-accordion">
+                          <h4 className="title-accordion-box">معرفی دوره</h4>
+                        </div>
+                        <div className="detail-box-accordion">
+                          <span className="time-accordion-box">
+                            2:00 <AccessTimeIcon />
+                          </span>
+                          <button>
+                            مشاهده{" "}
+                            <NorthWestIcon style={{ fontSize: "20px" }} />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1" className="">
+                  <Accordion.Header className="title-accordion d-flex justify-content-between align-items-center">
+                    <span>فصل دوم</span>
+                    <ExpandMoreIcon className="accordion-icon" />
+                  </Accordion.Header>
+                  <Accordion.Body className="">
+                    <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
+                      <span className="mx-2 num-box">1</span>
+                      <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
+                        <div className="title-box-accordion">
+                          <h4 className="title-accordion-box">معرفی دوره</h4>
+                        </div>
+                        <div className="detail-box-accordion">
+                          <span className="time-accordion-box">
+                            2:00 <AccessTimeIcon />
+                          </span>
+                          <button>
+                            مشاهده{" "}
+                            <NorthWestIcon style={{ fontSize: "20px" }} />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
             </div>
           </div>
           <div className="col-4">
