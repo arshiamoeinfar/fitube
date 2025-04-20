@@ -1,5 +1,7 @@
 
 .navbarCourse{
+    position: sticky;
+    top: 115px;
     background-color: var(--bs-main-color);
     padding: 10px;
     border-radius: 40px;

@@ -13,6 +13,7 @@ import NavbarCourse from "../../components/NavbarCourse/NavbarCourse";
 import Accordion from "react-bootstrap/Accordion";
 import NorthWestIcon from "@mui/icons-material/NorthWest";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import HdrWeakIcon from "@mui/icons-material/HdrWeak";
 export default function DetailCourse() {
   return (
     <>
@@ -80,7 +81,11 @@ export default function DetailCourse() {
               <NavbarCourse />
 
               <div className="header-title-Course">
-                <h3>معرفی دوره</h3>
+                <h3>
+                  {" "}
+                  <HdrWeakIcon className="mx-2" />
+                  معرفی دوره
+                </h3>
               </div>
               <p>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -93,7 +98,11 @@ export default function DetailCourse() {
                 زبان فارسی ایجاد کرد
               </p>
               <div className="header-title-Course">
-                <h3>دوره آموزشی طراحی سایت</h3>
+                <h3>
+                  {" "}
+                  <HdrWeakIcon className="mx-2" />
+                  دوره آموزشی طراحی سایت
+                </h3>
               </div>
               <img className="rounded-3 w-100" src={imgCourse} alt="" />
               <p>
@@ -109,10 +118,14 @@ export default function DetailCourse() {
               <Accordion className="accordtion" defaultActiveKey="0">
                 <Accordion.Item eventKey="0" className="">
                   <Accordion.Header className="title-accordion d-flex justify-content-between align-items-center">
-                    <span>فصل اول</span>
+                    <span>
+                      {" "}
+                      <HdrWeakIcon className="mx-2" />
+                      فصل اول
+                    </span>
                     <ExpandMoreIcon className="accordion-icon" />
                   </Accordion.Header>
-                  <Accordion.Body className="">
+                  <Accordion.Body className="px-5">
                     <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
                       <span className="mx-2 num-box">1</span>
                       <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
@@ -131,7 +144,7 @@ export default function DetailCourse() {
                       </div>
                     </div>
                   </Accordion.Body>
-                  <Accordion.Body className="">
+                  <Accordion.Body className="px-5">
                     <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
                       <span className="mx-2 num-box">2</span>
                       <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
@@ -150,7 +163,7 @@ export default function DetailCourse() {
                       </div>
                     </div>
                   </Accordion.Body>
-                  <Accordion.Body className="">
+                  <Accordion.Body className="px-5">
                     <div className="box-accordion  d-flex justify-content-center align-items-center p-2">
                       <span className="mx-2 num-box">3</span>
                       <div className="box-accordion-info w-100 d-flex justify-content-between align-items-center">
@@ -172,7 +185,10 @@ export default function DetailCourse() {
                 </Accordion.Item>
                 <Accordion.Item eventKey="1" className="">
                   <Accordion.Header className="title-accordion d-flex justify-content-between align-items-center">
-                    <span>فصل دوم</span>
+                    <span>
+                      <HdrWeakIcon className="mx-2" />
+                      فصل دوم{" "}
+                    </span>
                     <ExpandMoreIcon className="accordion-icon" />
                   </Accordion.Header>
                   <Accordion.Body className="">
@@ -199,7 +215,46 @@ export default function DetailCourse() {
             </div>
           </div>
           <div className="col-4">
-            <SideCart />
+            <div className="side-course-info">
+              <div className="sideCourse">
+                <div className="title-sideCourse">
+                  <h4>
+                    <HdrWeakIcon className="mx-2" />
+                    خرید دوره طراحی سایت
+                  </h4>
+                </div>
+                <div className="price-sideCourse mt-4">
+                  <div className="name-course">
+                    <h4>قیمت دوره :</h4>
+                  </div>
+                  <div className="prices">
+                    <div className="price-off">
+                      <span className="text-decoration-line-through">
+                        2000 تومان
+                      </span>
+                    </div>
+                    <span className="price-course">500000 تومان</span>
+                  </div>
+                </div>
+                <div className="btn-sideCourse mt-4">
+                  <button>
+                    افزودن به سبد خرید
+                    <NorthWestIcon className="me-2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="teacher-info">
+              <div className="teacher-title">
+                <h3>
+                  {" "}
+                  <HdrWeakIcon className="mx-2" />
+                  مدرس دوره
+                </h3>
+              </div>
+              <div className="teacher-name">
+              </div>
+            </div>
           </div>
         </div>
       </div>
