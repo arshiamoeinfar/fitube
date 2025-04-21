@@ -173,6 +173,11 @@
     var(--bs-main-color) 100%
   );
   border-radius: 20px;
+
+}
+.container-side-Course-info{
+  position: sticky;
+  top: 110px;
 }
 .title-sideCourse {
   background-color: var(--bs-card-bg);
@@ -223,4 +228,33 @@
 
 .btn-sideCourse button:hover {
   background-color: #600707;
+}
+
+.teacher-title h3{
+  font-family: var(--bs-font-bold);
+  font-size: 17px;
+}
+.teacher-profile img{
+border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+.teacher-info-profile h4{
+  font-family: var(--bs-font-bold);
+  font-size: 18px;
+}
+.teacher-info-profile span{
+  font-family: var(--bs-font-md);
+  font-size: 15px;
+  color: #9f0e0e;
+}
+.teacher-about{
+  background-color: var(--bg-utility-navbar);
+  padding:  15px;
+  font-family: var(--bs-font-md);
+  border-radius: 15px 0 15px 15px;
+}
+.teacher-about p{
+  font-size: 16px;
+  color: #6b7280;
 }

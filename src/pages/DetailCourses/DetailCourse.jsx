@@ -14,6 +14,8 @@ import Accordion from "react-bootstrap/Accordion";
 import NorthWestIcon from "@mui/icons-material/NorthWest";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import HdrWeakIcon from "@mui/icons-material/HdrWeak";
+import imgTeacher from "./../../assets/images/01.jpeg"
+import Comments from "./../../components/Comments/Comments"
 export default function DetailCourse() {
   return (
     <>
@@ -83,7 +85,7 @@ export default function DetailCourse() {
               <div className="header-title-Course">
                 <h3>
                   {" "}
-                  <HdrWeakIcon className="mx-2" />
+                  <HdrWeakIcon style={{fontSize: "17px"}} className="mx-2" />
                   معرفی دوره
                 </h3>
               </div>
@@ -100,7 +102,7 @@ export default function DetailCourse() {
               <div className="header-title-Course">
                 <h3>
                   {" "}
-                  <HdrWeakIcon className="mx-2" />
+                  <HdrWeakIcon style={{fontSize: "17px"}} className="mx-2" />
                   دوره آموزشی طراحی سایت
                 </h3>
               </div>
@@ -120,7 +122,7 @@ export default function DetailCourse() {
                   <Accordion.Header className="title-accordion d-flex justify-content-between align-items-center">
                     <span>
                       {" "}
-                      <HdrWeakIcon className="mx-2" />
+                      <HdrWeakIcon style={{fontSize: "17px"}} className="mx-2" />
                       فصل اول
                     </span>
                     <ExpandMoreIcon className="accordion-icon" />
@@ -186,7 +188,7 @@ export default function DetailCourse() {
                 <Accordion.Item eventKey="1" className="">
                   <Accordion.Header className="title-accordion d-flex justify-content-between align-items-center">
                     <span>
-                      <HdrWeakIcon className="mx-2" />
+                      <HdrWeakIcon style={{fontSize: "17px"}} className="mx-2" />
                       فصل دوم{" "}
                     </span>
                     <ExpandMoreIcon className="accordion-icon" />
@@ -212,14 +214,16 @@ export default function DetailCourse() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
+              <Comments/>
             </div>
           </div>
           <div className="col-4">
+            <div className="container-side-Course-info">
             <div className="side-course-info">
               <div className="sideCourse">
                 <div className="title-sideCourse">
                   <h4>
-                    <HdrWeakIcon className="mx-2" />
+                    <HdrWeakIcon style={{fontSize: "17px"}} className="mx-2" />
                     خرید دوره طراحی سایت
                   </h4>
                 </div>
@@ -243,17 +247,29 @@ export default function DetailCourse() {
                   </button>
                 </div>
               </div>
+
             </div>
-            <div className="teacher-info">
+            <div className="teacher-info mt-4">
               <div className="teacher-title">
                 <h3>
                   {" "}
-                  <HdrWeakIcon className="mx-2" />
+                  <HdrWeakIcon style={{fontSize: "17px"}} className="mx-2"  />
                   مدرس دوره
                 </h3>
               </div>
-              <div className="teacher-name">
+              <div className="teacher-name mt-4 d-flex">
+                <div className="teacher-profile">
+                  <img src={imgTeacher} alt="" />
+                </div>
+                <div className="teacher-info-profile mx-2">
+                  <h4>ارشیا معین فر</h4>
+                  <span>فرانت اند</span>
+                </div>
               </div>
+              <div className="teacher-about mt-4">
+                  <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده</p>
+              </div>
+            </div>
             </div>
           </div>
         </div>
