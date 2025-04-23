@@ -25,7 +25,7 @@
     --bs-btn-hover-light: #c90909;
     --bs-bg-box : #17171C;
     --bs-text-color: #ffffff;
-    --bs-btn-hover:#1e1f1f;
+    --bs-btn-hover-info:#1e1f1f;
 }
 :root[data-bs-theme="light"] {
     --bs-body-bg: #ffffff; /* پس‌زمینه کاملاً تاریک */
@@ -47,5 +47,5 @@
     --bs-bg-box : #f4f4f5;
     --bs-btn-hover-light: #c90909;
     --bs-text-color: #9f0e0e;
-    --bs-btn-hover:#d0d0d0;
+    --bs-btn-hover-info:#d0d0d0;
 }

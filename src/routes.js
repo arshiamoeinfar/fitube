@@ -7,6 +7,8 @@ import NotificationPanel from "./components/NotificationPanel/NotificationPanel"
 import ArticleInfo from "./pages/ArticleInfo/ArticleInfo";
 import DetailCourse from "./pages/DetailCourses/DetailCourse";
 import Index from "./pages/Index/Index";
+// import Login from "./pages/Login/Login";
+import Register from "./pages/Login/Register";
 import PanelUser from "./pages/PanelUser/PanelUser";
 import ShoppingCart from "./pages/ShoppingCart/ShoppingCart";
 const routes = [
@@ -14,6 +16,7 @@ const routes = [
     { path: "/cart", element: <ShoppingCart /> },
     { path: "/course-info/:curseName", element: <DetailCourse /> },
     { path: "/article-info/:articleName", element: <ArticleInfo /> },
+    { path: "/register", element: <Register /> },
     {
         path: "/paneluser",
         element: <PanelUser />,

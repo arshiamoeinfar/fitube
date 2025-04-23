@@ -4,7 +4,7 @@ import { Brightness4, Brightness7 } from "@mui/icons-material";
 import BedtimeOutlinedIcon from '@mui/icons-material/BedtimeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import "./DarkMode.css";
-const ThemeToggle = () => {
+const ThemeToggle = ({iconDarkMode}) => {
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
     useEffect(() => {
@@ -13,9 +13,16 @@ const ThemeToggle = () => {
     }, [theme]);
 
     return (
-        <IconButton onClick={() => setTheme(theme === "light" ? "dark" : "light")} color="inherit">
-            {theme === "light" ? <BedtimeOutlinedIcon /> : <WbSunnyOutlinedIcon />}
-        </IconButton>
+        <>
+        {
+            iconDarkMode && (
+
+                <IconButton onClick={() => setTheme(theme === "light" ? "dark" : "light")} color="inherit">
+                    {theme === "light" ? <BedtimeOutlinedIcon /> : <WbSunnyOutlinedIcon />}
+                </IconButton>
+            )
+        }
+        </>
     );
 };
 

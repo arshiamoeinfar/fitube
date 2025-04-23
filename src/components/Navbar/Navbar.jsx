@@ -153,8 +153,7 @@ const Header = () => {
                 {/* <img src={moon} alt="" /> */}
 
                 <div className="_icon_Navbar">
-                  <DarkMode />
-                  {/* <WbSunnyIcon className="" /> */}
+                  <DarkMode iconDarkMode={true} />
                 </div>
                 <div
                   className="_icon_Navbar"
