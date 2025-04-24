@@ -1,5 +1,5 @@
 
-.login-container{
+.register-container{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.login-info{
+.register-info{
     margin: auto;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
     border-radius: 20px;
     background-color: var(--bs-main-color);
 }
-.login-form-detail{
+.register-form-detail{
    width: fit-content;
    height: 100%;
    display: flex;
@@ -28,18 +28,18 @@
    margin-right: 3rem;
 }
 
-.login-form-title h2{
+.register-form-title h2{
     font-family: var(--bs-font-bold);
     font-size: 3rem;
 }
-.login__register__btn{
+.register__register__btn{
     display: flex;
     align-items:last baseline;
 }
-.login-form-title p{
+.register-form-title p{
     font-family: var(--bs-font-md);
 }
-.register-btn-login{
+.register-btn-register{
     font-family: var(--bs-font-md);
     text-decoration: none;
     background-color: var(--bg-utility-navbar); 
@@ -47,12 +47,12 @@
     border-radius: 5px;
     color: var(--bs-btn-hover-light);
 }
-.login-form-inputs{
+.register-form-inputs{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.login-form-inputs input {
+.register-form-inputs input {
     font-family: var(--bs-font-md);
     margin: 1rem 0;
     background-color: var(--bg-utility-navbar);
@@ -61,21 +61,21 @@
     border-radius: 10px;
     color: #898787;
 }
-.login-form__password-setting{
+.register-form__password-setting{
     font-family: var(--bs-font-md);
     justify-content: center;
     align-items: start;
 }
-.login-form__password-remember{
+.register-form__password-remember{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.login-btn{
+.register-btn{
     width: 100%;
     margin-top: 1rem;
 }
-.login-btn button{
+.register-btn button{
     font-family: var(--bs-font-md);
     background-color: var( --bs-btn-hover-light);
     width: 100%;
@@ -85,15 +85,15 @@
     transition: all 0.3s ease;
     color: #fff;
 }
-.login-btn button:hover{
+.register-btn button:hover{
 background-color: var(--bs-btn-hover);
 }
-.login-user-account img{
+.register-user-account img{
 width: 50px;
 height: 50px;
 object-fit: cover;
 }
-.login-user-account-btn{
+.register-user-account-btn{
     font-family: var(--bs-font-md);
     text-decoration: none;
     color: var( --bs-body-color);
