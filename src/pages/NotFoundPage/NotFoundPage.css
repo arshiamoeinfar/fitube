@@ -1,0 +1,9 @@
+.image-not-found img{
+    width: 500px;
+}
+.text-not-found h4{
+    font-family: var(--bs-font-bold);
+}
+.text-not-found p{
+    font-family: var(--bs-font-md);
+}

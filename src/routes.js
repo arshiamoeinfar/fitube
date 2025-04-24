@@ -11,6 +11,9 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import PanelUser from "./pages/PanelUser/PanelUser";
 import ShoppingCart from "./pages/ShoppingCart/ShoppingCart";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+
 const routes = [
     { path: "/", element: <Index /> },
     { path: "/cart", element: <ShoppingCart /> },
@@ -18,6 +21,8 @@ const routes = [
     { path: "/article-info/:articleName", element: <ArticleInfo /> },
     { path: "/register", element: <Register /> },
     { path: "/login", element: <Login /> },
+    { path: "/about-us", element: <AboutUs /> },
+    { path: "*", element: <NotFoundPage /> },
     {
         path: "/paneluser",
         element: <PanelUser />,

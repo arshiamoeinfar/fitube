@@ -141,7 +141,7 @@ const Header = () => {
                     </li>
                   </div>
                   <li>
-                    <Link className="nav_link text-decoration-none" to="/about">
+                    <Link className="nav_link text-decoration-none" to="/about-us">
                       درباره ما
                     </Link>
                   </li>
