@@ -82,18 +82,18 @@
 /* .subMenu {
   width: 100%;
   } */
-.subMenu li {
+.subMenuLink {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  list-style: none;
   width: 100%;
   margin-bottom: 15px;
   cursor: pointer;
   font-family: var(--bs-font-md);
   color: #6b7280;
+  text-decoration: none;
 }
-.subMenu li:hover {
+.subMenuLink:hover {
   color: var(--bs-submenu-bg);
 }
 .subMenu-panelBox-link {

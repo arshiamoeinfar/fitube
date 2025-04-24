@@ -13,6 +13,7 @@ import PanelUser from "./pages/PanelUser/PanelUser";
 import ShoppingCart from "./pages/ShoppingCart/ShoppingCart";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+import ArticleCategories from "./pages/ArticleCategories/ArticleCategories";
 
 const routes = [
     { path: "/", element: <Index /> },
@@ -23,6 +24,7 @@ const routes = [
     { path: "/login", element: <Login /> },
     { path: "/about-us", element: <AboutUs /> },
     { path: "*", element: <NotFoundPage /> },
+    { path: "/articl-category", element: <ArticleCategories /> },
     {
         path: "/paneluser",
         element: <PanelUser />,

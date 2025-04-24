@@ -1,0 +1,51 @@
+
+
+.article__box{
+    width: 30%;
+}
+.image__article img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.article__info{
+    background-color: var(--bg-utility-navbar);
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+.article__info h4{
+    font-family: var(--bs-font-bold);
+    font-size: 17px;
+    margin-top: 5px;
+    color: var(  --bs-text-color);
+}
+
+.article__author__about{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article__author__about img{
+border-radius: 50%;
+width: 40px;
+
+}
+.article__author__about h5{
+font-family: var(--bs-font-md);
+font-size: 13px;
+}
+.article__category{
+    background-color: #f232325c;
+    font-family: var(--bs-font-md);
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: var(  --bs-text-color);
+    font-size: 13px;
+}
+.icon__time{
+    color: #6b7280;
+}
+.time__study span{
+    font-family: var(--bs-font-md);
+    font-size: 15px;
+}
