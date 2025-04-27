@@ -62,38 +62,26 @@ const Header = () => {
                       دسته بندی آموزشها
                       <KeyboardArrowDownIcon />
                       <div className="subMenu">
-                        <li>
+                        <Link className="subMenuLink" to="/courses-category">
                           برنامه نویسی
                           <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
+                        </Link>
+                        <Link className="subMenuLink" to="/courses-category">
                           برنامه نویسی
                           <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
+                        </Link>
+                        <Link className="subMenuLink" to="/courses-category">
                           برنامه نویسی
                           <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
+                        </Link>
+                        <Link className="subMenuLink" to="/courses-category">
                           برنامه نویسی
                           <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
+                        </Link>
+                        <Link className="subMenuLink" to="/courses-category">
                           برنامه نویسی
                           <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
-                          برنامه نویسی
-                          <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
-                          برنامه نویسی
-                          <KeyboardArrowLeftIcon />
-                        </li>
-                        <li>
-                          برنامه نویسی
-                          <KeyboardArrowLeftIcon />
-                        </li>
+                        </Link>
                       </div>
                     </li>
                   </div>

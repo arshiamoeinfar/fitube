@@ -1,0 +1,15 @@
+
+.courses__filter__{
+    background-color: var(--bg-utility-navbar);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.text{
+    font-family: var(--bs-font-bold);
+    font-size: 15px;
+}
+#switchCheckDefault{
+    transform: scale(1.3);
+}

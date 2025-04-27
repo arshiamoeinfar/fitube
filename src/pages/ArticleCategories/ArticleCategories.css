@@ -69,8 +69,10 @@
 .selection__item:hover {
   background-color: var(--bs-main-color);
   color: #9f0e0e;
-  font-family: var(--bs-font-bold);
+  /* font-family: var(--bs-font-bold); */
   font-weight: 100;
+  border-radius: 5px;
+  padding: 5px;
 }
 .selection__list.active{
     visibility: visible;
