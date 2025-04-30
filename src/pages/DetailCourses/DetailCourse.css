@@ -151,6 +151,7 @@
   border: none;
   font-size: 15px;
   transition: all 0.3s ease;
+  background-color: var( --bg-utility-navbar);
 }
 
 .detail-box-accordion button:hover {
