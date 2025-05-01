@@ -1,0 +1,34 @@
+/* دکمه همبرگر */
+.hamburger-menu {
+    background-color: var(--bg-utility-navbar);
+    color: var(--bs-btn-bg);
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background: var(--primary-color);
+  }
+  /* نمایش دکمه همبرگر فقط در موبایل */
+/* نمایش فقط در موبایل */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger-menu {
+      display: flex;
+      align-items: center;
+    }
+  }
+  

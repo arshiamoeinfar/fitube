@@ -11,7 +11,7 @@ export default function Wayus() {
     // <div className="container-fluid p-5">
     <div id="container-way-us" className="container p-5 rounded-4 mt-5">
       <div className="title text-center ">چرا آکــــادمــــــی فیتیوب؟</div>
-      <div className="row mt-5 d-felx ">
+      <div className="row mt-5 d-felx justify-content-center align-items-center">
         <div className="col features d-flex justify-content-center flex-column align-items-center ">
           <div className="circle p-4 rounded-circle">
             <SmartDisplayOutlinedIcon
@@ -23,7 +23,7 @@ export default function Wayus() {
             پیشنهاد ویدیو برای ترجمه{" "}
           </p>
         </div>
-        <div className="col features d-flex justify-content-center flex-column align-items-center ">
+        <div className="col features d-flex justify-content-around flex-column align-items-center ">
           <div className="circle p-4 rounded-circle">
             <PublicOutlinedIcon className="circle-3" sx={{ fontSize: 50 }} />
           </div>
@@ -31,12 +31,15 @@ export default function Wayus() {
             با بهترین کیفیت ترجمه
           </p>
         </div>
-        <div className="col features d-flex justify-content-center flex-column align-items-center">
+        <div className="col features d-flex justify-content-around flex-column align-items-center mt-3">
+          <div className="items__circle">
           <div className="circle p-4 rounded-circle">
             <VideoCameraFrontOutlinedIcon
               className="circle-1"
               sx={{ fontSize: 50 }}
             />
+          </div>
+
           </div>
           <p className="text-WayUs circle-1 text-center">
             ویدیو های آموزشی از بهترین تدریس های یوتیوب

@@ -27,8 +27,13 @@
     opacity: 0.6;
   }
 }
+.items__circle{
+  background-color: #0184ef;
+  width: 100px;
+}
 .circle {
   background-color: var(--bs-body-bg);
+  width: 100px;
 }
 .circle-1 {
   color: #0b999e;
@@ -48,4 +53,15 @@
 .text-WayUs {
   font-family: var(--bs-font-md);
   margin-top: 1rem;
+  background-color: #158e00;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  
+  .title{
+  transform: translate(-110%, -135%);
+
+  }
 }

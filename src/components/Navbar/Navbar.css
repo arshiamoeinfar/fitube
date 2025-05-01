@@ -6,16 +6,17 @@
   font-family: "YakanBakhMedium";
   src: url("../../assets//fonts/YekanBakh-Regular.ttf") format("truetype");
 }
-
-#navbar {
-  border-bottom: 1px solid #3e424b;
+.navbar__{
+  border-bottom: 1px solid #67686b66;
   position: sticky;
   top: 0;
   z-index: 1000;
   background-color: var(--bs-body-bg);
+  width: 100%;
 }
+
 #navbar-container {
-  width: 80%;
+  width: 100%;
 }
 .search-box {
   position: relative;
@@ -126,6 +127,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-left: 15px;
 }
 
 .icon-close-searchBox {
@@ -146,6 +148,11 @@
 }
 .userLoginInfo {
   cursor: pointer;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .userLoginInfo h3 {
