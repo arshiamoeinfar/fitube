@@ -28,12 +28,16 @@
   }
 }
 .items__circle{
-  background-color: #0184ef;
   width: 100px;
 }
 .circle {
   background-color: var(--bs-body-bg);
-  width: 100px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 .circle-1 {
   color: #0b999e;
@@ -53,7 +57,8 @@
 .text-WayUs {
   font-family: var(--bs-font-md);
   margin-top: 1rem;
-  background-color: #158e00;
+  
+  max-width: 100px;
 }
 
 
