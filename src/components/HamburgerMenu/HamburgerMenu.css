@@ -1,3 +1,25 @@
+.custom__offcanvas{
+  z-index: 999999 !important;
+}
+.search__Input{
+  font-family: var(--bs-font-md);
+  font-size: 15px;
+  color: #6b7280;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: var(--bg-utility-navbar);
+}
+.search__Input input{
+  width: 80%;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  background: none;
+  color: #6b7280;
+}
 /* دکمه همبرگر */
 .hamburger-menu {
     background-color: var(--bg-utility-navbar);
@@ -11,6 +33,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-right: 10px;
   }
   .hamburger-menu span {
     width: 25px;
@@ -25,10 +48,16 @@
     padding: 10px;
   }
   
-  @media (max-width: 768px) {
+  
+  @media (max-width: 992px) {
     .hamburger-menu {
       display: flex;
       align-items: center;
     }
   }
-  
+
+  .selection__list__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+  }

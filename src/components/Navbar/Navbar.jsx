@@ -154,8 +154,8 @@ const Header = () => {
                 </div>
                 <div className="col-8">
                   <div className="utility-bar d-flex justify-content-end align-items-center">
-                    <div className="_icon_Navbar">
-                      <DarkMode iconDarkMode={true} />
+                    <div className="_icon_Navbar darkMode">
+                      <DarkMode  iconDarkMode={true} />
                     </div>
                     <div
                       className="_icon_Navbar"

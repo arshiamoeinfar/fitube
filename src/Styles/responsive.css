@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 992px) {
+    .menus-navbar{
+      display: none;
+    }
+    .darkMode{
+        display: none;
+    }
+  }

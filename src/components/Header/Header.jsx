@@ -6,7 +6,7 @@ import main from "./../../assets/images/main.png";
 import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 const AnimatedHeader = () => {
   return (
-    <div className="container-fluid  ">
+    <div className="container-fluid">
      <div  className="container bg-black rounded-4 p-5 main">
 
       <div className="row d-flex justify-content-between align-items-center">
