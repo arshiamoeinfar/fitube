@@ -7,6 +7,7 @@ import DarkMode from "./../DarkMode/DarkMode"
 import SearchIcon from '@mui/icons-material/Search';
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+import EmojiObjectsOutlinedIcon from '@mui/icons-material/EmojiObjectsOutlined';
 
 export default function HamburgerMenu({ navLinks , name, ...props }) {
     const [show, setShow] = useState(false);
@@ -40,16 +41,32 @@ export default function HamburgerMenu({ navLinks , name, ...props }) {
               <ExpandMoreIcon />
               
               {/* active class */}
-              <ul className="selection__list d-flex  flex-column justify-content-start active">
-                <div className="selection__list__navbar">
-                  <div className="d-flex bg-primary">
+              <div className="selection__list d-flex flex-column justify-content-start active">
+                <div className="selection__list__navbar mb-2">
+                  <div className="d-flex align-items-center">
                 <KeyboardArrowLeftIcon className="" />
-                <h6 className="">طراحی سایت</h6>
+                <h6 className="m-auto">طراحی سایت</h6>
                   </div>
                 </div>
-              </ul>
+                <div className="selection__list__navbar mb-2">
+                  <div className="d-flex align-items-center">
+                <KeyboardArrowLeftIcon className="" />
+                <h6 className="m-auto">طراحی سایت</h6>
+                  </div>
+                </div>
+                <div className="selection__list__navbar mb-2">
+                  <div className="d-flex align-items-center">
+                <KeyboardArrowLeftIcon className="" />
+                <h6 className="m-auto">طراحی سایت</h6>
+                  </div>
+                </div>
+              </div>
             </div>
         </Offcanvas.Body>
+              <div className="d-flex">
+                <EmojiObjectsOutlinedIcon/>
+                <h6>پرسش و پاسخ ها</h6>
+              </div>
       </Offcanvas>
     </div>
   )

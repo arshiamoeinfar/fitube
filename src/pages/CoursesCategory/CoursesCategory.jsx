@@ -37,7 +37,7 @@ export default function CoursesCategory() {
           <div className="storing__category__article d-flex align-items-center mt-3">
             <div className="storing__box w-100">
               <div className="selection__title d-flex align-items-start justify-content-between">
-                <h5 className="m-0">انتخاب کنید</h5>
+                <h5 className="">انتخاب کنید</h5>
               </div>
               <ExpandMoreIcon />
               {/* active class */}

@@ -58,6 +58,12 @@
 
   .selection__list__navbar{
     display: flex;
-    justify-content: space-between;
-    align-items:self-start;
+    justify-content: start;
+    align-items: start;
+    background-color: var(--bs-back-main-2);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .selection__list__navbar:hover *{
+    color: var(--bs-btn-hover);
   }
